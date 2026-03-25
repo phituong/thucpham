@@ -1,1 +1,1370 @@
-(function(_0xe677c3,_0x25fb52){const _0x1b918e=_0x23bb,_0x434f93=_0xe677c3();while(!![]){try{const _0x3a9b52=-parseInt(_0x1b918e(0x1c4))/0x1*(-parseInt(_0x1b918e(0xee))/0x2)+parseInt(_0x1b918e(0x17d))/0x3+-parseInt(_0x1b918e(0x10d))/0x4*(parseInt(_0x1b918e(0x1c0))/0x5)+-parseInt(_0x1b918e(0x16f))/0x6+-parseInt(_0x1b918e(0x179))/0x7+parseInt(_0x1b918e(0x12d))/0x8*(-parseInt(_0x1b918e(0x183))/0x9)+-parseInt(_0x1b918e(0x13f))/0xa*(-parseInt(_0x1b918e(0x194))/0xb);if(_0x3a9b52===_0x25fb52)break;else _0x434f93['push'](_0x434f93['shift']());}catch(_0x4f41b7){_0x434f93['push'](_0x434f93['shift']());}}}(_0x3970,0xe8f58));function _0x3970(){const _0x2a3109=['#22c55e20',';\x20font-weight:\x20bold;\x20font-size:\x2016px;\x22>','%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>','add','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20font-size:\x2011px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','---','●\x200%\x20(không\x20đổi)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x20background:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2012px;\x22><strong>Node\x20','%\x20→\x20','📊\x20Theo\x20dõi\x20sát,\x20kiểm\x20tra\x20nhiệt\x20độ\x20cài\x20đặt,\x20hạn\x20chế\x20mở\x20cửa','°C</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>','batteryDays','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20color:\x20#94a3b8;\x22>lần</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20','push','3\x20ngày','none','target','N/A','addEventListener','°C)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Chênh\x20lệch:</strong>\x20','endTime','white','startDate','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Không\x20có\x20dữ\x20liệu\x20trong\x20khoảng\x20thời\x20gian\x20','temperature','giảm','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#8b5cf6,\x20#6d28d9);\x20color:\x20white;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📡\x20Mất\x20kết\x20nối\x20nhiều\x20nhất</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20bold;\x22>','4760xMztJq','#64748b','✅\x20Nhiệt\x20độ\x20kho\x20trong\x20ngưỡng\x20an\x20toàn','°C\x20<\x202°C','⚠️\x20NGHIÊM\x20TRỌNG:\x20Thay\x20đổi\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20white;\x20width:\x2095%;\x20max-width:\x201300px;\x20max-height:\x2090vh;\x20border-radius:\x2020px;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#f59e0b\x200%,\x20#d97706\x20100%);\x20color:\x20white;\x20padding:\x2020px\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22margin:\x200;\x22>⚠️\x20PHÁT\x20HIỆN\x20BẤT\x20THƯỜNG</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20opacity:\x200.9;\x22>','3\x20ngày\x20trước','vbat_percent','batteryTo','cssText','modal-overlay',';\x22>','durationText','Không\x20có\x20dữ\x20liệu\x20để\x20phân\x20tích','\x20lần)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','batteryAbsChange','✅\x20ĐỘ\x20ẨM\x20ỔN\x20ĐỊNH','5662340BLXUKu','avgHum','join','Hôm\x20qua','%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>','critical','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x0a<!--\x20Tab\x204:\x20Pin\x20-->\x0a<div\x20id=\x22tab-battery\x22\x20class=\x22tab-content\x22\x20style=\x22display:\x20none;\x20padding:\x2020px;\x20max-height:\x20calc(90vh\x20-\x20280px);\x20overflow-y:\x20auto;\x22>\x0a\x20\x20<div\x20style=\x22margin-bottom:\x2025px;\x20overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20border:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20left;\x22>Node</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>🔋\x20Đầu\x20kỳ\x20→\x20Cuối\x20kỳ</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📊\x20Tổng\x20thay\x20đổi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⏱️\x20Thời\x20gian</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Cảnh\x20báo</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','#22c55e','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22background:\x20','batteryToTime','timestamps','show','classList','%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#64748b;\x22>Ngưỡng:\x2040%\x20-\x2070%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Node\x20Comparison\x20Table\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22margin:\x200\x200\x2015px\x200;\x22>📋\x20SO\x20SÁNH\x20TRUNG\x20BÌNH\x20CÁC\x20NODE</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2012px;\x20text-align:\x20left;\x22>Node</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x22>🌡️\x20Nhiệt\x20độ\x20TB</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x22>💧\x20Độ\x20ẩm\x20TB</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x22>📊\x20So\x20với\x20TB\x20kho</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x22>📝\x20Số\x20bản\x20ghi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','filter','\x0a\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20</table>\x0a\x20\x20</div>\x0a\x20\x20\x0a\x20\x20<!--\x20Bảng\x20phân\x20loại\x20mức\x20độ\x20-->\x0a\x20\x20<div\x20style=\x22margin-top:\x2015px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(4,\x201fr);\x20gap:\x2010px;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#eab30820;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#eab308;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#854d0e;\x20font-weight:\x20bold;\x22>⚠️\x20NHẸ</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x202-4\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>💨\x20Đột\x20ngột:\x201\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Có\x20thể\x20do\x20mở\x20cửa,\x20xếp\x20hàng</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#f59e0b20;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#f59e0b;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#c2410c;\x20font-weight:\x20bold;\x22>⚠️\x20TRUNG\x20BÌNH</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x205-9\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>💨\x20Đột\x20ngột:\x202-4\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Độ\x20ẩm\x20dao\x20động\x20bất\x20thường</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#dc262620;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#dc2626;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#991b1b;\x20font-weight:\x20bold;\x22>⚠️\x20CAO</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x2010-15\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>💨\x20Đột\x20ngột:\x205-10\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Máy\x20tạo\x20ẩm/hút\x20ẩm\x20có\x20vấn\x20đề</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#7f1a1a20;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#7f1a1a;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#7f1a1a;\x20font-weight:\x20bold;\x22>⚠️\x20NGHIÊM\x20TRỌNG</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x20>15\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>💨\x20Đột\x20ngột:\x20>10\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Hỏng\x20hệ\x20thống,\x20cần\x20sửa\x20ngay!</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a</div>\x0a\x0a\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<!--\x20Tab\x203:\x20Mất\x20kết\x20nối\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22tab-connection\x22\x20class=\x22tab-content\x22\x20style=\x22display:\x20none;\x20padding:\x2020px;\x20max-height:\x20calc(90vh\x20-\x20280px);\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Bảng\x20tổng\x20hợp\x20mất\x20kết\x20nối\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2025px;\x20overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20border:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20left;\x22>Node</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📡\x20Số\x20lần\x20mất\x20kết\x20nối</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Cảnh\x20báo</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','⚠️\x20ĐỘ\x20ẨM\x20DAO\x20ĐỘNG\x20BẤT\x20THƯỜNG','appendChild','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','forEach','#ef4444','map','block','tempSuddenSevereCount','batteryDrop','toFixed','analysis','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#475569;\x20margin-top:\x204px;\x22>','vbatReadings','style','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20','batteryFrom','\x0a\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20left:\x200;\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20background:\x20rgba(0,0,0,0.5);\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20z-index:\x20100000;\x0a\x20\x20','\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20white;\x20width:\x2090%;\x20max-width:\x20800px;\x20border-radius:\x2020px;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#667eea\x200%,\x20#764ba2\x20100%);\x20color:\x20white;\x20padding:\x2020px\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22margin:\x200;\x22>📊\x20PHÂN\x20TÍCH\x20TỔNG\x20QUÁT</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20opacity:\x200.9;\x22>','%\x20>\x2070%','°C\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x22>','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20color:\x20','querySelectorAll','BÌNH\x20THƯỜNG','NHẸ','%\x20<\x2040%','🔧\x20Kiểm\x20tra\x20thiết\x20bị,\x20vệ\x20sinh,\x20kiểm\x20tra\x20cài\x20đặt\x20độ\x20ẩm',';\x20padding:\x204px\x2012px;\x20border-radius:\x2020px;\x20font-size:\x2012px;\x20font-weight:\x20600;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','display','Độ\x20ẩm\x20thấp:\x20','%)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Mất\x20kết\x20nối\x20nhiều:</strong>\x20','keys','#3b82f6','1338924GQPKZR','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>','batteryHours','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','abnormal','level','⚠️\x20HỆ\x20THỐNG\x20ĐIỀU\x20HÒA\x20ẨM\x20HỎNG\x20NGHIÊM\x20TRỌNG','humOutOfRange','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','humidity','6293630vHbYuf','\x20lần</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>💧\x20Độ\x20ẩm\x20ngoài\x20ngưỡng</span><br><strong>','className','°C</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#64748b;\x22>Ngưỡng:\x202°C\x20-\x208°C</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8fafc;\x20padding:\x2020px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#64748b;\x22>💧\x20ĐỘ\x20ẨM\x20TRUNG\x20BÌNH\x20KHO</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2036px;\x20font-weight:\x20bold;\x20color:\x20#3b82f6;\x22>','5207973IhEPjc','%)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Chênh\x20lệch:</strong>\x20','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20color:\x20#78350f;\x22>Điểm\x20bất\x20thường:\x20','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20opacity:\x200.8;\x20font-size:\x2012px;\x22>📅\x20','batteryNote','tempSuddenHighCount','2025lpIbBH','humOutCount','avgTemp','querySelector','humSuddenLowCount','sort','tempSuddenChange','°</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>','disconnections','normal','🔧\x20Kiểm\x20tra\x20quạt\x20dàn\x20lạnh,\x20vệ\x20sinh\x20bảo\x20trì,\x20kiểm\x20tra\x20cài\x20đặt\x20nhiệt\x20độ','Không\x20có\x20dữ\x20liệu\x20pin','Nhiệt\x20độ\x20thấp:\x20','color','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22this.closest(\x27.modal-overlay\x27).remove()\x22\x20style=\x22background:\x20rgba(255,255,255,0.2);\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2024px;\x20cursor:\x20pointer;\x20width:\x2036px;\x20height:\x2036px;\x20border-radius:\x2050%;\x22>✕</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2025px;\x20max-height:\x20calc(90vh\x20-\x20100px);\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Top\x20Issues\x20Cards\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x20repeat(5,\x201fr);\x20gap:\x2012px;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#ef4444,\x20#dc2626);\x20color:\x20white;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>🔥\x20Nhiệt\x20độ\x20cao\x20nhất</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20bold;\x22>','Chỉ\x20có\x201\x20lần\x20đo\x20pin','TRUNG\x20BÌNH','11zHxhdb',';\x20color:\x20','count','round','%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x20color:\x20','createElement','active','reduce','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','disconnectCount','batteryTotalChange','getElementById','⚠️\x20TRUNG\x20BÌNH:\x20Thay\x20đổi\x20','length','batteryAnomaly','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20font-weight:\x20500;\x22>Node\x20','medium','CAO','humSuddenCount','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Ngày\x20tệ\x20nhất\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#fef3c7,\x20#fde68a);\x20padding:\x2020px;\x20border-radius:\x2016px;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2048px;\x22>⚠️</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22margin:\x200;\x20color:\x20#92400e;\x22>NGÀY\x20CÓ\x20VẤN\x20ĐỀ\x20NHIỀU\x20NHẤT</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20font-size:\x2020px;\x20font-weight:\x20bold;\x20color:\x20#b45309;\x22>📅\x20','minTemp','startTime','#7f1a1a','humSuddenHighCount','div','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22this.closest(\x27.modal-overlay\x27).remove()\x22\x20style=\x22background:\x20rgba(255,255,255,0.2);\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2024px;\x20cursor:\x20pointer;\x20width:\x2036px;\x20height:\x2036px;\x20border-radius:\x2050%;\x22>✕</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<!--\x20Tabs\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20border-bottom:\x201px\x20solid\x20#e2e8f0;\x20background:\x20white;\x20padding:\x200\x2020px;\x20overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tab-btn\x20active\x22\x20data-tab=\x22temp\x22\x20style=\x22padding:\x2012px\x2020px;\x20cursor:\x20pointer;\x20font-weight:\x20500;\x20border-bottom:\x202px\x20solid\x20#f59e0b;\x20color:\x20#f59e0b;\x20white-space:\x20nowrap;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🌡️\x20NHIỆT\x20ĐỘ\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tab-btn\x22\x20data-tab=\x22hum\x22\x20style=\x22padding:\x2012px\x2020px;\x20cursor:\x20pointer;\x20font-weight:\x20500;\x20color:\x20#64748b;\x20white-space:\x20nowrap;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20💧\x20ĐỘ\x20ẨM\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tab-btn\x22\x20data-tab=\x22connection\x22\x20style=\x22padding:\x2012px\x2020px;\x20cursor:\x20pointer;\x20font-weight:\x20500;\x20color:\x20#64748b;\x20white-space:\x20nowrap;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📡\x20MẤT\x20KẾT\x20NỐI\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tab-btn\x22\x20data-tab=\x22battery\x22\x20style=\x22padding:\x2012px\x2020px;\x20cursor:\x20pointer;\x20font-weight:\x20500;\x20color:\x20#64748b;\x20white-space:\x20nowrap;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔋\x20PIN\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x0a<!--\x20Tab\x201:\x20Nhiệt\x20độ\x20-->\x0a<div\x20id=\x22tab-temp\x22\x20class=\x22tab-content\x22\x20style=\x22display:\x20block;\x20padding:\x2020px;\x20max-height:\x20calc(90vh\x20-\x20280px);\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x0a\x20\x20<!--\x20Bảng\x20tổng\x20hợp\x20nhiệt\x20độ\x20các\x20node\x20-->\x0a\x20\x20<div\x20style=\x22margin-bottom:\x2025px;\x20overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20border:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20left;\x22>Node</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>🌡️\x20Ngoài\x20ngưỡng\x20(2-8°C)</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚡\x20Đột\x20ngột\x20(≥2°C/10p)</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📊\x20Mức\x20độ</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Cảnh\x20báo\x20&\x20Khuyến\x20nghị</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x20điểm</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x20repeat(4,\x201fr);\x20gap:\x2010px;\x20margin-top:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>🌡️\x20Nhiệt\x20độ\x20ngoài\x20ngưỡng</span><br><strong>','%</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>📡\x20Mất\x20kết\x20nối</span><br><strong>','⚠️\x20HỆ\x20THỐNG\x20LẠNH\x20CÓ\x20VẤN\x20ĐỀ\x20NGHIÊM\x20TRỌNG','hums','disconnectionCount','nodeData','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20color:\x20#94a3b8;\x22>lần</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22background:\x20','\x0a\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20</table>\x0a\x20\x20</div>\x0a\x20\x20\x0a\x20\x20<!--\x20Bảng\x20phân\x20loại\x20mức\x20cảnh\x20báo\x20-->\x0a\x20\x20<div\x20style=\x22margin-top:\x2015px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(4,\x201fr);\x20gap:\x2010px;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#eab30820;\x20padding:\x208px;\x20border-radius:\x208px;\x20text-align:\x20center;\x20border-left:\x203px\x20solid\x20#eab308;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#854d0e;\x22>⚠️\x20NHẸ</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20bold;\x22>2%\x20-\x205%</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>Thay\x20đổi\x20nhỏ</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#f59e0b20;\x20padding:\x208px;\x20border-radius:\x208px;\x20text-align:\x20center;\x20border-left:\x203px\x20solid\x20#f59e0b;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#c2410c;\x22>⚠️\x20TRUNG\x20BÌNH</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20bold;\x22>5%\x20-\x2010%</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>Cần\x20theo\x20dõi</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#dc262620;\x20padding:\x208px;\x20border-radius:\x208px;\x20text-align:\x20center;\x20border-left:\x203px\x20solid\x20#dc2626;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#991b1b;\x22>⚠️\x20CAO</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20bold;\x22>10%\x20-\x2015%</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>Kiểm\x20tra\x20ngay</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#7f1a1a20;\x20padding:\x208px;\x20border-radius:\x208px;\x20text-align:\x20center;\x20border-left:\x203px\x20solid\x20#7f1a1a;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#7f1a1a;\x22>⚠️\x20NGHIÊM\x20TRỌNG</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20bold;\x22>>\x2015%</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>Thay\x20pin\x20ngay</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a</div>\x0a\x0a\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','Phân\x20tích\x20so\x20sánh\x20ngày\x20cần\x20ít\x20nhất\x202\x20ngày\x20dữ\x20liệu','custom','⚠️\x20NHẸ:\x20Thay\x20đổi\x20','batteryFromTime','data-tab','timestamp','#7f1a1a20','📌\x20CẤP\x20CỨU:\x20Kiểm\x20tra\x20máy\x20nén,\x20gas,\x20cảm\x20biến\x20nhiệt\x20độ\x20ngay!','abs','📌\x20CẤP\x20CỨU:\x20Kiểm\x20tra\x20máy\x20tạo\x20ẩm,\x20hút\x20ẩm,\x20cảm\x20biến\x20độ\x20ẩm\x20ngay!','3430XInqMD','drop','2px\x20solid\x20#f59e0b','high','4030PgMzvS','humSuddenChange','\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20white;\x20width:\x2095%;\x20max-width:\x201400px;\x20max-height:\x2090vh;\x20border-radius:\x2020px;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#8b5cf6\x200%,\x20#6d28d9\x20100%);\x20color:\x20white;\x20padding:\x2020px\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22margin:\x200;\x22>📊\x20PHÂN\x20TÍCH\x20SO\x20SÁNH\x20NGÀY</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22margin:\x205px\x200\x200;\x20opacity:\x200.9;\x22>','Hôm\x20nay','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20font-size:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','2days','</span>','remove','NGHIÊM\x20TRỌNG','%\x20(giảm)','tăng','3days','.tab-content','⚠️\x20CAO:\x20Thay\x20đổi\x20','low','innerHTML','body','click','score','°C\x20>\x208°C','date','542ntmPXs','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20font-weight:\x20500;\x22>Node\x20','min','👍\x20Tiếp\x20tục\x20duy\x20trì','<span\x20style=\x22background:\x20#f59e0b;\x20color:\x20white;\x20padding:\x202px\x208px;\x20border-radius:\x2012px;\x20font-size:\x2011px;\x22>⚠️\x20MẤT\x20KẾT\x20NỐI\x20THƯỜNG\x20XUYÊN</span>','#f59e0b','message','tempOutCount',';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20font-weight:\x20','value','temps','#eab308','borderBottom','2\x20ngày\x20trước',';\x20color:\x20white;\x20padding:\x204px\x2010px;\x20border-radius:\x2012px;\x20font-size:\x2011px;\x20display:\x20inline-block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','yesterday','max','%\x20(tăng)','<span\x20style=\x22color:\x20#22c55e;\x22>✅\x20Ổn\x20định</span>','#dc2626',';\x20font-weight:\x20500;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','⚠️\x20Nhiệt\x20độ\x20kho\x20cao\x20hơn\x20ngưỡng\x20khuyến\x20nghị','\x20→\x20','tempOutOfRange','today','<span\x20style=\x22color:\x20#22c55e;\x22>✅\x20Bình\x20thường</span>','\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>','#f59e0b20','readings','%)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Ngày\x20thấp\x20nhất:</strong>\x20','tempSuddenMediumCount','6904lsaWIc','maxTemp','⚠️\x20CÓ\x20THỂ\x20DO\x20MỞ\x20CỬA\x20HOẶC\x20XẾP\x20HÀNG'];_0x3970=function(){return _0x2a3109;};return _0x3970();}function showStoreAnalysis(_0x2242b2,_0x1a3a8b){const _0x29e07e=_0x23bb;let _0x1b415c='';if(selectedDate===_0x29e07e(0x106))_0x1b415c=_0x29e07e(0x1c7);else{if(selectedDate==='yesterday')_0x1b415c=_0x29e07e(0x142);else{if(selectedDate===_0x29e07e(0x1c9))_0x1b415c=_0x29e07e(0xfb);else{if(selectedDate===_0x29e07e(0x1cf))_0x1b415c=_0x29e07e(0x134);else selectedDate===_0x29e07e(0x1b7)&&(_0x1b415c=formatDateVN(customStartDate)+_0x29e07e(0x104)+formatDateVN(customEndDate));}}}const _0x3d53c7=historicalData[_0x2242b2];if(!_0x3d53c7||Object['keys'](_0x3d53c7)[_0x29e07e(0x1a1)]===0x0){alert(_0x29e07e(0x129)+_0x1b415c);return;}const _0x3ace1b=Object[_0x29e07e(0x16d)](_0x3d53c7)[_0x29e07e(0x188)]((_0x5e6555,_0x582029)=>_0x5e6555-_0x582029);let _0x1c96c4=[],_0x1389ea=[],_0xadfce4=[];_0x3ace1b[_0x29e07e(0x152)](_0x5c7acd=>{const _0x276943=_0x29e07e,_0x3a03a9=_0x3d53c7[_0x5c7acd];if(!_0x3a03a9||_0x3a03a9['length']===0x0)return;const _0x50dda7=_0x3a03a9[_0x276943(0x154)](_0x294b9e=>_0x294b9e[_0x276943(0x12a)]/0xa),_0x2bb08e=_0x3a03a9[_0x276943(0x154)](_0x17ac4d=>_0x17ac4d['humidity']/0xa),_0x251ebe=_0x50dda7['reduce']((_0x156eb6,_0x380e26)=>_0x156eb6+_0x380e26,0x0)/_0x50dda7[_0x276943(0x1a1)],_0x455da9=_0x2bb08e[_0x276943(0x19b)]((_0x399274,_0x5dc0dc)=>_0x399274+_0x5dc0dc,0x0)/_0x2bb08e[_0x276943(0x1a1)],_0x5a74a5=Math[_0x276943(0xfe)](..._0x50dda7),_0x45cc92=Math[_0x276943(0xf0)](..._0x50dda7);_0x1389ea[_0x276943(0x11e)](..._0x50dda7),_0xadfce4[_0x276943(0x11e)](..._0x2bb08e),_0x1c96c4[_0x276943(0x11e)]({'nodeId':_0x5c7acd,'avgTemp':_0x251ebe,'avgHum':_0x455da9,'maxTemp':_0x5a74a5,'minTemp':_0x45cc92,'readings':_0x3a03a9[_0x276943(0x1a1)]});});const _0x28c2d1=(_0x1389ea[_0x29e07e(0x19b)]((_0x265b67,_0x584847)=>_0x265b67+_0x584847,0x0)/_0x1389ea['length'])[_0x29e07e(0x158)](0x1),_0x286774=(_0xadfce4[_0x29e07e(0x19b)]((_0x47f584,_0xd31911)=>_0x47f584+_0xd31911,0x0)/_0xadfce4['length'])['toFixed'](0x1),_0x3c4798=[..._0x1c96c4][_0x29e07e(0x188)]((_0x31b89e,_0x4663d4)=>Math[_0x29e07e(0x1be)](_0x31b89e[_0x29e07e(0x185)]-0x5)-Math[_0x29e07e(0x1be)](_0x4663d4[_0x29e07e(0x185)]-0x5))[0x0],_0x2f2f1b=[..._0x1c96c4]['sort']((_0xe2e05d,_0x347f79)=>Math[_0x29e07e(0x1be)](_0x347f79[_0x29e07e(0x185)]-0x5)-Math[_0x29e07e(0x1be)](_0xe2e05d[_0x29e07e(0x185)]-0x5))[0x0],_0x2457f2=document[_0x29e07e(0x199)](_0x29e07e(0x1ac));_0x2457f2['className']=_0x29e07e(0x138),_0x2457f2['style'][_0x29e07e(0x137)]=_0x29e07e(0x15f),_0x2457f2['innerHTML']=_0x29e07e(0x160)+_0x1a3a8b+_0x29e07e(0x180)+_0x1b415c+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22this.closest(\x27.modal-overlay\x27).remove()\x22\x20style=\x22background:\x20rgba(255,255,255,0.2);\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2024px;\x20cursor:\x20pointer;\x20width:\x2036px;\x20height:\x2036px;\x20border-radius:\x2050%;\x22>✕</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Store\x20Mean\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:\x2015px;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8fafc;\x20padding:\x2020px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#64748b;\x22>🌡️\x20NHIỆT\x20ĐỘ\x20TRUNG\x20BÌNH\x20KHO</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2036px;\x20font-weight:\x20bold;\x20color:\x20#ef4444;\x22>'+_0x28c2d1+_0x29e07e(0x17c)+_0x286774+_0x29e07e(0x14c)+_0x1c96c4[_0x29e07e(0x154)](_0x58d554=>{const _0x146cc7=_0x29e07e,_0x50b87e=(_0x58d554[_0x146cc7(0x185)]-_0x28c2d1)[_0x146cc7(0x158)](0x1),_0x3087bb=_0x50b87e>0x0?_0x146cc7(0x153):_0x50b87e<0x0?_0x146cc7(0x16e):'#64748b',_0x4c3d79=_0x50b87e>0x0?'▲':_0x50b87e<0x0?'▼':'●';return _0x146cc7(0x118)+_0x58d554['nodeId']+'</strong></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x20font-weight:\x20bold;\x20color:\x20#ef4444;\x22>'+_0x58d554[_0x146cc7(0x185)][_0x146cc7(0x158)](0x1)+'°C</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2012px;\x20text-align:\x20center;\x20font-weight:\x20bold;\x20color:\x20#3b82f6;\x22>'+_0x58d554[_0x146cc7(0x140)]['toFixed'](0x1)+_0x146cc7(0x198)+_0x3087bb+';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4c3d79+'\x20'+Math[_0x146cc7(0x1be)](_0x50b87e)+_0x146cc7(0x162)+_0x58d554[_0x146cc7(0x10a)]+_0x146cc7(0x19c);})[_0x29e07e(0x141)]('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Insights\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2020px;\x20padding:\x2015px;\x20background:\x20#fef3c7;\x20border-radius:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2020px;\x22>💡</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Nhận\x20xét:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20'+(_0x28c2d1>0x8?_0x29e07e(0x103):_0x28c2d1<0x2?'❄️\x20Nhiệt\x20độ\x20kho\x20thấp\x20hơn\x20ngưỡng\x20khuyến\x20nghị':_0x29e07e(0x12f))+_0x29e07e(0x177),document[_0x29e07e(0x1d4)][_0x29e07e(0x150)](_0x2457f2),_0x2457f2['addEventListener'](_0x29e07e(0x1d5),function(_0x35bc56){const _0x70f82b=_0x29e07e;if(_0x35bc56[_0x70f82b(0x121)]===_0x2457f2)_0x2457f2[_0x70f82b(0x1cb)]();});}function showAbnormalDetection(_0x3dd24f,_0x16970a){const _0x3b57be=_0x23bb,_0x495d44=historicalData[_0x3dd24f];if(!_0x495d44||Object[_0x3b57be(0x16d)](_0x495d44)[_0x3b57be(0x1a1)]===0x0){alert(_0x3b57be(0x13b));return;}let _0x8842a2='';if(selectedDate===_0x3b57be(0x106))_0x8842a2=_0x3b57be(0x1c7);else{if(selectedDate===_0x3b57be(0xfd))_0x8842a2=_0x3b57be(0x142);else{if(selectedDate==='2days')_0x8842a2=_0x3b57be(0xfb);else{if(selectedDate===_0x3b57be(0x1cf))_0x8842a2=_0x3b57be(0x134);else{if(selectedDate==='custom')_0x8842a2=formatDateVN(customStartDate)+_0x3b57be(0x104)+formatDateVN(customEndDate);}}}}const _0xaf772d=Object[_0x3b57be(0x16d)](_0x495d44)[_0x3b57be(0x188)]((_0x16b983,_0x797e5f)=>_0x16b983-_0x797e5f);let _0x5460f7={};_0xaf772d['forEach'](_0x29b70f=>{const _0x3d3478=_0x3b57be,_0x259b28=_0x495d44[_0x29b70f];if(!_0x259b28||_0x259b28[_0x3d3478(0x1a1)]===0x0)return;const _0xebd835=[..._0x259b28][_0x3d3478(0x188)]((_0x38cac3,_0x7d59e1)=>new Date(_0x38cac3[_0x3d3478(0x1bb)])-new Date(_0x7d59e1[_0x3d3478(0x1bb)]));_0x5460f7[_0x29b70f]={'tempOutOfRange':[],'tempOutCount':0x0,'tempSuddenChange':[],'tempSuddenCount':0x0,'tempSuddenLowCount':0x0,'tempSuddenMediumCount':0x0,'tempSuddenHighCount':0x0,'tempSuddenSevereCount':0x0,'humOutOfRange':[],'humOutCount':0x0,'humSuddenChange':[],'humSuddenCount':0x0,'humSuddenLowCount':0x0,'humSuddenMediumCount':0x0,'humSuddenHighCount':0x0,'humSuddenSevereCount':0x0,'disconnections':[],'disconnectionCount':0x0,'disconnectionFrequency':0x0,'batteryFrom':null,'batteryTo':null,'batteryTotalChange':null,'batteryAbsChange':null,'batteryHours':0x0,'batteryDays':0x0,'batteryFromTime':null,'batteryToTime':null,'batteryAnomaly':null},_0xebd835[_0x3d3478(0x152)](_0x54b68a=>{const _0x587c1e=_0x3d3478,_0x133cdb=_0x54b68a[_0x587c1e(0x12a)]/0xa;if(_0x133cdb>0x8)_0x5460f7[_0x29b70f]['tempOutCount']++,_0x5460f7[_0x29b70f][_0x587c1e(0x105)][_0x587c1e(0x11e)]({'time':formatDateTimeVN(_0x54b68a['timestamp']),'value':_0x133cdb[_0x587c1e(0x158)](0x1),'type':_0x587c1e(0x1c3),'message':'Nhiệt\x20độ\x20cao:\x20'+_0x133cdb['toFixed'](0x1)+_0x587c1e(0x1d7)});else _0x133cdb<0x2&&(_0x5460f7[_0x29b70f]['tempOutCount']++,_0x5460f7[_0x29b70f][_0x587c1e(0x105)]['push']({'time':formatDateTimeVN(_0x54b68a[_0x587c1e(0x1bb)]),'value':_0x133cdb[_0x587c1e(0x158)](0x1),'type':_0x587c1e(0x1d2),'message':_0x587c1e(0x18f)+_0x133cdb['toFixed'](0x1)+_0x587c1e(0x130)}));});for(let _0x517dd8=0x1;_0x517dd8<_0xebd835[_0x3d3478(0x1a1)];_0x517dd8++){const _0x2b5f52=_0xebd835[_0x517dd8],_0x460206=_0xebd835[_0x517dd8-0x1],_0x304929=_0x2b5f52[_0x3d3478(0x12a)]/0xa,_0x47001b=_0x460206[_0x3d3478(0x12a)]/0xa,_0x1e8d36=Math[_0x3d3478(0x1be)](_0x304929-_0x47001b),_0x1330e9=new Date(_0x2b5f52['timestamp']),_0x48cf0e=new Date(_0x460206[_0x3d3478(0x1bb)]),_0x481c56=(_0x1330e9-_0x48cf0e)/(0x3e8*0x3c);if(_0x481c56<=0xa){let _0x301fbc='',_0x2f50de='';if(_0x1e8d36>=0x5)_0x301fbc=_0x3d3478(0x1cc),_0x2f50de=_0x3d3478(0x1aa),_0x5460f7[_0x29b70f][_0x3d3478(0x156)]++;else{if(_0x1e8d36>=0x3)_0x301fbc=_0x3d3478(0x1a5),_0x2f50de=_0x3d3478(0x101),_0x5460f7[_0x29b70f][_0x3d3478(0x182)]++;else{if(_0x1e8d36>=0x2)_0x301fbc='TRUNG\x20BÌNH',_0x2f50de=_0x3d3478(0xf3),_0x5460f7[_0x29b70f][_0x3d3478(0x10c)]++;else _0x1e8d36>=0x1&&(_0x301fbc=_0x3d3478(0x166),_0x2f50de='#eab308',_0x5460f7[_0x29b70f]['tempSuddenLowCount']++);}}_0x1e8d36>=0x1&&(_0x5460f7[_0x29b70f]['tempSuddenCount']++,_0x5460f7[_0x29b70f][_0x3d3478(0x189)][_0x3d3478(0x11e)]({'time':formatDateTimeVN(_0x2b5f52[_0x3d3478(0x1bb)]),'change':_0x1e8d36[_0x3d3478(0x158)](0x1),'from':_0x47001b[_0x3d3478(0x158)](0x1),'to':_0x304929[_0x3d3478(0x158)](0x1),'duration':Math['round'](_0x481c56),'level':_0x301fbc,'color':_0x2f50de}));}}_0xebd835[_0x3d3478(0x152)](_0x322461=>{const _0x31d00c=_0x3d3478,_0x4060b7=_0x322461[_0x31d00c(0x178)]/0xa;if(_0x4060b7>0x46)_0x5460f7[_0x29b70f][_0x31d00c(0x184)]++,_0x5460f7[_0x29b70f][_0x31d00c(0x176)][_0x31d00c(0x11e)]({'time':formatDateTimeVN(_0x322461[_0x31d00c(0x1bb)]),'value':_0x4060b7['toFixed'](0x1),'type':_0x31d00c(0x1c3),'message':'Độ\x20ẩm\x20cao:\x20'+_0x4060b7[_0x31d00c(0x158)](0x1)+_0x31d00c(0x161)});else _0x4060b7<0x28&&(_0x5460f7[_0x29b70f][_0x31d00c(0x184)]++,_0x5460f7[_0x29b70f][_0x31d00c(0x176)][_0x31d00c(0x11e)]({'time':formatDateTimeVN(_0x322461[_0x31d00c(0x1bb)]),'value':_0x4060b7[_0x31d00c(0x158)](0x1),'type':'low','message':_0x31d00c(0x16b)+_0x4060b7[_0x31d00c(0x158)](0x1)+_0x31d00c(0x167)}));});for(let _0x35e3f6=0x1;_0x35e3f6<_0xebd835[_0x3d3478(0x1a1)];_0x35e3f6++){const _0x1507ba=_0xebd835[_0x35e3f6],_0x3d6853=_0xebd835[_0x35e3f6-0x1],_0x4b67fe=_0x1507ba[_0x3d3478(0x178)]/0xa,_0x41c331=_0x3d6853[_0x3d3478(0x178)]/0xa,_0x27137b=Math[_0x3d3478(0x1be)](_0x4b67fe-_0x41c331),_0x37679e=new Date(_0x1507ba['timestamp']),_0x4b12be=new Date(_0x3d6853['timestamp']),_0x2f4cab=(_0x37679e-_0x4b12be)/(0x3e8*0x3c);if(_0x2f4cab<=0x2){let _0x2ab1e7='',_0x29e06c='';if(_0x27137b>=0x14)_0x2ab1e7='NGHIÊM\x20TRỌNG',_0x29e06c='#7f1a1a',_0x5460f7[_0x29b70f]['humSuddenSevereCount']++;else{if(_0x27137b>=0xf)_0x2ab1e7=_0x3d3478(0x1a5),_0x29e06c=_0x3d3478(0x101),_0x5460f7[_0x29b70f][_0x3d3478(0x1ab)]++;else{if(_0x27137b>=0xa)_0x2ab1e7=_0x3d3478(0x193),_0x29e06c=_0x3d3478(0xf3),_0x5460f7[_0x29b70f]['humSuddenMediumCount']++;else _0x27137b>=0x5&&(_0x2ab1e7=_0x3d3478(0x166),_0x29e06c=_0x3d3478(0xf9),_0x5460f7[_0x29b70f][_0x3d3478(0x187)]++);}}_0x27137b>=0x5&&(_0x5460f7[_0x29b70f][_0x3d3478(0x1a6)]++,_0x5460f7[_0x29b70f][_0x3d3478(0x1c5)][_0x3d3478(0x11e)]({'time':formatDateTimeVN(_0x1507ba[_0x3d3478(0x1bb)]),'change':_0x27137b[_0x3d3478(0x158)](0x1),'from':_0x41c331['toFixed'](0x1),'to':_0x4b67fe[_0x3d3478(0x158)](0x1),'duration':Math[_0x3d3478(0x197)](_0x2f4cab),'level':_0x2ab1e7,'color':_0x29e06c}));}}const _0x5a22a7=analyzeDisconnections(_0xebd835,0x14);if(_0x5a22a7['length']>0x0){const _0x32c258=new Date(_0xebd835[0x0][_0x3d3478(0x1bb)]),_0x2aa801=new Date(_0xebd835[_0xebd835['length']-0x1][_0x3d3478(0x1bb)]),_0x53646d=Math[_0x3d3478(0xfe)](0x1,(_0x2aa801-_0x32c258)/(0x3e8*0x3c*0x3c*0x18)),_0x15ee7d=_0x5a22a7[_0x3d3478(0x1a1)]/_0x53646d;_0x15ee7d>=0x2&&(_0x5460f7[_0x29b70f][_0x3d3478(0x1b2)]=_0x5a22a7[_0x3d3478(0x1a1)],_0x5460f7[_0x29b70f]['disconnectionFrequency']=_0x15ee7d[_0x3d3478(0x158)](0x1),_0x5460f7[_0x29b70f][_0x3d3478(0x18b)]=_0x5a22a7['map'](_0x51ccf2=>({'startTime':_0x51ccf2[_0x3d3478(0x1a9)],'endTime':_0x51ccf2[_0x3d3478(0x125)],'duration':_0x51ccf2[_0x3d3478(0x13a)],'date':_0x51ccf2[_0x3d3478(0x127)]})));}const _0x41f37e=_0xebd835[_0x3d3478(0x14d)](_0x146239=>_0x146239[_0x3d3478(0x135)]!==null&&_0x146239[_0x3d3478(0x135)]!==undefined);if(_0x41f37e[_0x3d3478(0x1a1)]>=0x2){const _0x1a3e6c=_0x41f37e[0x0],_0x172227=_0x41f37e[_0x41f37e[_0x3d3478(0x1a1)]-0x1],_0x5d9024=new Date(_0x1a3e6c[_0x3d3478(0x1bb)]),_0xcfb0e=new Date(_0x172227['timestamp']),_0x49359b=(_0xcfb0e-_0x5d9024)/(0x3e8*0x3c*0x3c),_0x33a7ce=_0x49359b/0x18,_0x447492=_0x172227['vbat_percent']-_0x1a3e6c[_0x3d3478(0x135)],_0x1a085b=Math['abs'](_0x447492);_0x5460f7[_0x29b70f][_0x3d3478(0x15e)]=_0x1a3e6c[_0x3d3478(0x135)],_0x5460f7[_0x29b70f][_0x3d3478(0x136)]=_0x172227[_0x3d3478(0x135)],_0x5460f7[_0x29b70f][_0x3d3478(0x19e)]=_0x447492[_0x3d3478(0x158)](0x1),_0x5460f7[_0x29b70f][_0x3d3478(0x13d)]=_0x1a085b[_0x3d3478(0x158)](0x1),_0x5460f7[_0x29b70f][_0x3d3478(0x171)]=_0x49359b['toFixed'](0x1),_0x5460f7[_0x29b70f]['batteryDays']=_0x33a7ce['toFixed'](0x1),_0x5460f7[_0x29b70f][_0x3d3478(0x1b9)]=formatDateTimeVN(_0x1a3e6c[_0x3d3478(0x1bb)]),_0x5460f7[_0x29b70f][_0x3d3478(0x148)]=formatDateTimeVN(_0x172227[_0x3d3478(0x1bb)]);let _0x2c1f92=null,_0x49fe1f='',_0x3f2f57='';if(_0x1a085b>0xf)_0x2c1f92=_0x3d3478(0x144),_0x49fe1f=_0x3d3478(0x131)+_0x1a085b[_0x3d3478(0x158)](0x1)+'%',_0x3f2f57=_0x3d3478(0x1aa);else{if(_0x1a085b>0xa)_0x2c1f92=_0x3d3478(0x1c3),_0x49fe1f=_0x3d3478(0x1d1)+_0x1a085b['toFixed'](0x1)+'%',_0x3f2f57=_0x3d3478(0x101);else{if(_0x1a085b>0x5)_0x2c1f92=_0x3d3478(0x1a4),_0x49fe1f=_0x3d3478(0x1a0)+_0x1a085b[_0x3d3478(0x158)](0x1)+'%',_0x3f2f57=_0x3d3478(0xf3);else _0x1a085b>0x2&&(_0x2c1f92=_0x3d3478(0x1d2),_0x49fe1f=_0x3d3478(0x1b8)+_0x1a085b['toFixed'](0x1)+'%',_0x3f2f57=_0x3d3478(0xf9));}}_0x2c1f92&&(_0x5460f7[_0x29b70f]['batteryAnomaly']={'from':_0x1a3e6c[_0x3d3478(0x135)],'to':_0x172227[_0x3d3478(0x135)],'totalChange':_0x447492[_0x3d3478(0x158)](0x1),'absTotalChange':_0x1a085b[_0x3d3478(0x158)](0x1),'period':_0x33a7ce['toFixed'](0x1),'hours':_0x49359b[_0x3d3478(0x158)](0x1),'fromTime':formatDateTimeVN(_0x1a3e6c[_0x3d3478(0x1bb)]),'toTime':formatDateTimeVN(_0x172227[_0x3d3478(0x1bb)]),'direction':_0x447492>0x0?_0x3d3478(0x1ce):_0x3d3478(0x12b),'level':_0x2c1f92,'message':_0x49fe1f,'color':_0x3f2f57});}else _0x41f37e[_0x3d3478(0x1a1)]===0x1?(_0x5460f7[_0x29b70f]['batteryFrom']=_0x41f37e[0x0][_0x3d3478(0x135)],_0x5460f7[_0x29b70f]['batteryTo']=_0x3d3478(0x122),_0x5460f7[_0x29b70f][_0x3d3478(0x19e)]=null,_0x5460f7[_0x29b70f][_0x3d3478(0x181)]=_0x3d3478(0x192)):(_0x5460f7[_0x29b70f][_0x3d3478(0x15e)]=_0x3d3478(0x122),_0x5460f7[_0x29b70f]['batteryTo']=_0x3d3478(0x122),_0x5460f7[_0x29b70f][_0x3d3478(0x19e)]=null,_0x5460f7[_0x29b70f]['batteryNote']=_0x3d3478(0x18e));});const _0x203513=document[_0x3b57be(0x199)](_0x3b57be(0x1ac));_0x203513['className']=_0x3b57be(0x138),_0x203513[_0x3b57be(0x15c)][_0x3b57be(0x137)]=_0x3b57be(0x15f),_0x203513[_0x3b57be(0x1d3)]=_0x3b57be(0x133)+_0x16970a+_0x3b57be(0x180)+_0x8842a2+_0x3b57be(0x1ad)+Object['keys'](_0x5460f7)[_0x3b57be(0x188)]((_0x2cbf9d,_0x55165d)=>_0x2cbf9d-_0x55165d)[_0x3b57be(0x154)](_0x2f49fa=>{const _0x5633a4=_0x3b57be,_0x24f727=_0x5460f7[_0x2f49fa],_0x27055f=_0x24f727[_0x5633a4(0xf5)],_0x49bfe3=_0x24f727['tempSuddenCount'];let _0x407a5e='',_0x1febf4='',_0x3d1a74='',_0x182ede='',_0x127b4f='';if(_0x27055f>0xf||_0x49bfe3>0xa)_0x407a5e=_0x5633a4(0x1cc),_0x1febf4=_0x5633a4(0x1aa),_0x3d1a74=_0x5633a4(0x1bc),_0x182ede=_0x5633a4(0x1b0),_0x127b4f=_0x5633a4(0x1bd);else{if(_0x27055f>=0xa&&_0x27055f<=0xf||_0x49bfe3>=0x5&&_0x49bfe3<=0xa)_0x407a5e=_0x5633a4(0x1a5),_0x1febf4='#dc2626',_0x3d1a74='#dc262620',_0x182ede='⚠️\x20HỆ\x20THỐNG\x20LẠNH\x20HOẠT\x20ĐỘNG\x20KHÔNG\x20ỔN\x20ĐỊNH',_0x127b4f=_0x5633a4(0x18d);else{if(_0x27055f>=0x5&&_0x27055f<=0x9||_0x49bfe3>=0x2&&_0x49bfe3<=0x4)_0x407a5e=_0x5633a4(0x193),_0x1febf4=_0x5633a4(0xf3),_0x3d1a74=_0x5633a4(0x109),_0x182ede='⚠️\x20MÁY\x20LẠNH\x20HOẠT\x20ĐỘNG\x20KHÔNG\x20ỔN\x20ĐỊNH',_0x127b4f=_0x5633a4(0x11a);else _0x27055f>=0x2&&_0x27055f<=0x4||_0x49bfe3===0x1?(_0x407a5e='NHẸ',_0x1febf4=_0x5633a4(0xf9),_0x3d1a74='#eab30820',_0x182ede=_0x5633a4(0x10f),_0x127b4f='👀\x20Theo\x20dõi\x20thêm,\x20hạn\x20chế\x20mở\x20cửa\x20kho\x20lạnh'):(_0x407a5e=_0x5633a4(0x165),_0x1febf4=_0x5633a4(0x146),_0x3d1a74=_0x5633a4(0x110),_0x182ede='✅\x20HỆ\x20THỐNG\x20HOẠT\x20ĐỘNG\x20TỐT',_0x127b4f=_0x5633a4(0xf1));}}let _0x3f2d4a=_0x5633a4(0x12e);if(_0x27055f>0xf)_0x3f2d4a=_0x5633a4(0x1aa);else{if(_0x27055f>=0xa)_0x3f2d4a=_0x5633a4(0x101);else{if(_0x27055f>=0x5)_0x3f2d4a='#f59e0b';else{if(_0x27055f>=0x2)_0x3f2d4a='#eab308';}}}let _0x4417b2=_0x5633a4(0x12e);if(_0x49bfe3>0xa)_0x4417b2=_0x5633a4(0x1aa);else{if(_0x49bfe3>=0x5)_0x4417b2=_0x5633a4(0x101);else{if(_0x49bfe3>=0x2)_0x4417b2=_0x5633a4(0xf3);else{if(_0x49bfe3>=0x1)_0x4417b2=_0x5633a4(0xf9);}}}return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20font-weight:\x20500;\x22>Node\x20'+_0x2f49fa+_0x5633a4(0x15d)+_0x3f2d4a+_0x5633a4(0x111)+_0x27055f+_0x5633a4(0x11d)+_0x4417b2+';\x20font-weight:\x20bold;\x20font-size:\x2016px;\x22>'+_0x49bfe3+_0x5633a4(0x1b4)+_0x3d1a74+_0x5633a4(0x195)+_0x1febf4+_0x5633a4(0x169)+_0x407a5e+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20600;\x20color:\x20'+_0x1febf4+_0x5633a4(0x139)+_0x182ede+_0x5633a4(0x15a)+_0x127b4f+_0x5633a4(0x132);})[_0x3b57be(0x141)]('')+'\x0a\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20</table>\x0a\x20\x20</div>\x0a\x20\x20\x0a\x20\x20<!--\x20Bảng\x20phân\x20loại\x20mức\x20độ\x20-->\x0a\x20\x20<div\x20style=\x22margin-top:\x2015px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(4,\x201fr);\x20gap:\x2010px;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#eab30820;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#eab308;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#854d0e;\x20font-weight:\x20bold;\x22>⚠️\x20NHẸ</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x202-4\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>⚡\x20Đột\x20ngột:\x201\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Có\x20thể\x20do\x20mở\x20cửa,\x20xếp\x20hàng</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#f59e0b20;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#f59e0b;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#c2410c;\x20font-weight:\x20bold;\x22>⚠️\x20TRUNG\x20BÌNH</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x205-9\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>⚡\x20Đột\x20ngột:\x202-4\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Máy\x20lạnh\x20không\x20ổn\x20định</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#dc262620;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#dc2626;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#991b1b;\x20font-weight:\x20bold;\x22>⚠️\x20CAO</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x2010-15\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>⚡\x20Đột\x20ngột:\x205-10\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Hệ\x20thống\x20lạnh\x20có\x20vấn\x20đề</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20style=\x22background:\x20#7f1a1a20;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border-left:\x203px\x20solid\x20#7f1a1a;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#7f1a1a;\x20font-weight:\x20bold;\x22>⚠️\x20NGHIÊM\x20TRỌNG</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>📊\x20Ngoài\x20ngưỡng:\x20>15\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>⚡\x20Đột\x20ngột:\x20>10\x20lần</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x20margin-top:\x205px;\x22>👉\x20Hỏng\x20hệ\x20thống,\x20cần\x20sửa\x20ngay!</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20\x0a</div>\x0a\x20\x20\x20\x20\x20\x20\x0a<!--\x20Tab\x202:\x20Độ\x20ẩm\x20-->\x0a<div\x20id=\x22tab-hum\x22\x20class=\x22tab-content\x22\x20style=\x22display:\x20none;\x20padding:\x2020px;\x20max-height:\x20calc(90vh\x20-\x20280px);\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x0a\x20\x20<!--\x20Bảng\x20tổng\x20hợp\x20độ\x20ẩm\x20các\x20node\x20-->\x0a\x20\x20<div\x20style=\x22margin-bottom:\x2025px;\x20overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20border:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20left;\x22>Node</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>💧\x20Ngoài\x20ngưỡng\x20(40-70%)</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>💨\x20Đột\x20ngột\x20(≥10%/2p)</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📊\x20Mức\x20độ</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Cảnh\x20báo\x20&\x20Khuyến\x20nghị</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+Object[_0x3b57be(0x16d)](_0x5460f7)[_0x3b57be(0x188)]((_0x1861a6,_0x1402ad)=>_0x1861a6-_0x1402ad)[_0x3b57be(0x154)](_0x333573=>{const _0x4619f6=_0x3b57be,_0x54af49=_0x5460f7[_0x333573],_0x40f808=_0x54af49[_0x4619f6(0x184)],_0x47037c=_0x54af49[_0x4619f6(0x1a6)];let _0x741bf0='',_0xe762ff='',_0x47a18e='',_0x213f80='',_0xfbba63='';if(_0x40f808>0xf||_0x47037c>0xa)_0x741bf0='NGHIÊM\x20TRỌNG',_0xe762ff=_0x4619f6(0x1aa),_0x47a18e=_0x4619f6(0x1bc),_0x213f80=_0x4619f6(0x175),_0xfbba63=_0x4619f6(0x1bf);else{if(_0x40f808>=0xa&&_0x40f808<=0xf||_0x47037c>=0x5&&_0x47037c<=0xa)_0x741bf0=_0x4619f6(0x1a5),_0xe762ff='#dc2626',_0x47a18e='#dc262620',_0x213f80='⚠️\x20MÁY\x20TẠO\x20ẨM/HÚT\x20ẨM\x20KHÔNG\x20ỔN\x20ĐỊNH',_0xfbba63=_0x4619f6(0x168);else{if(_0x40f808>=0x5&&_0x40f808<=0x9||_0x47037c>=0x2&&_0x47037c<=0x4)_0x741bf0='TRUNG\x20BÌNH',_0xe762ff=_0x4619f6(0xf3),_0x47a18e=_0x4619f6(0x109),_0x213f80=_0x4619f6(0x14f),_0xfbba63='📊\x20Theo\x20dõi\x20sát,\x20kiểm\x20tra\x20cửa\x20kho,\x20hạn\x20chế\x20mở\x20cửa';else _0x40f808>=0x2&&_0x40f808<=0x4||_0x47037c===0x1?(_0x741bf0='NHẸ',_0xe762ff='#eab308',_0x47a18e='#eab30820',_0x213f80=_0x4619f6(0x10f),_0xfbba63='👀\x20Theo\x20dõi\x20thêm,\x20hạn\x20chế\x20mở\x20cửa\x20kho\x20lạnh'):(_0x741bf0='BÌNH\x20THƯỜNG',_0xe762ff=_0x4619f6(0x146),_0x47a18e=_0x4619f6(0x110),_0x213f80=_0x4619f6(0x13e),_0xfbba63='👍\x20Tiếp\x20tục\x20duy\x20trì');}}let _0x5adf77=_0x4619f6(0x12e);if(_0x40f808>0xf)_0x5adf77=_0x4619f6(0x1aa);else{if(_0x40f808>=0xa)_0x5adf77='#dc2626';else{if(_0x40f808>=0x5)_0x5adf77=_0x4619f6(0xf3);else{if(_0x40f808>=0x2)_0x5adf77=_0x4619f6(0xf9);}}}let _0x3b7f02='#64748b';if(_0x47037c>0xa)_0x3b7f02='#7f1a1a';else{if(_0x47037c>=0x5)_0x3b7f02=_0x4619f6(0x101);else{if(_0x47037c>=0x2)_0x3b7f02='#f59e0b';else{if(_0x47037c>=0x1)_0x3b7f02=_0x4619f6(0xf9);}}}return _0x4619f6(0xef)+_0x333573+_0x4619f6(0x15d)+_0x5adf77+_0x4619f6(0x111)+_0x40f808+_0x4619f6(0x11d)+_0x3b7f02+';\x20font-weight:\x20bold;\x20font-size:\x2016px;\x22>'+_0x47037c+_0x4619f6(0x1b4)+_0x47a18e+_0x4619f6(0x195)+_0xe762ff+_0x4619f6(0x169)+_0x741bf0+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20600;\x20color:\x20'+_0xe762ff+_0x4619f6(0x139)+_0x213f80+_0x4619f6(0x15a)+_0xfbba63+_0x4619f6(0x132);})[_0x3b57be(0x141)]('')+_0x3b57be(0x14e)+Object[_0x3b57be(0x16d)](_0x5460f7)[_0x3b57be(0x188)]((_0xf1cb3b,_0x5c0e83)=>_0xf1cb3b-_0x5c0e83)['map'](_0x541185=>{const _0x427f69=_0x3b57be,_0x5a7892=_0x5460f7[_0x541185],_0x127129=_0x5a7892[_0x427f69(0x1b2)]>0x0;return _0x427f69(0x1a3)+_0x541185+_0x427f69(0x163)+(_0x127129?_0x427f69(0xf3):_0x427f69(0x12e))+_0x427f69(0x139)+_0x5a7892[_0x427f69(0x1b2)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x127129?_0x427f69(0xf2):_0x427f69(0x100))+_0x427f69(0x172);})['join']('')+_0x3b57be(0x145)+Object[_0x3b57be(0x16d)](_0x5460f7)[_0x3b57be(0x188)]((_0x4af003,_0x4b5630)=>_0x4af003-_0x4b5630)[_0x3b57be(0x154)](_0x4ace3d=>{const _0x1d7a6b=_0x3b57be,_0x5803c2=_0x5460f7[_0x4ace3d],_0x301c61=_0x5803c2['batteryTotalChange']?parseFloat(_0x5803c2['batteryTotalChange']):null,_0x412a41=_0x5803c2['batteryAbsChange']?parseFloat(_0x5803c2[_0x1d7a6b(0x13d)]):null,_0x4e6fbd=_0x5803c2['batteryFrom']!==undefined?_0x5803c2['batteryFrom']:'N/A',_0x86bfdf=_0x5803c2[_0x1d7a6b(0x136)]!==undefined?_0x5803c2[_0x1d7a6b(0x136)]:'N/A',_0x4aac90=_0x5803c2[_0x1d7a6b(0x171)]||'0',_0x4c21d6=_0x5803c2[_0x1d7a6b(0x11c)]||'0',_0x50dd93=_0x5803c2[_0x1d7a6b(0x1a2)];let _0x4f25e3=_0x1d7a6b(0x12e),_0x17b12e='●',_0x515008='';if(_0x301c61!==null){if(_0x301c61>0x0)_0x4f25e3='#22c55e',_0x17b12e='▲',_0x515008=_0x17b12e+'\x20'+Math[_0x1d7a6b(0x1be)](_0x301c61)[_0x1d7a6b(0x158)](0x1)+_0x1d7a6b(0xff);else _0x301c61<0x0?(_0x4f25e3=_0x1d7a6b(0x153),_0x17b12e='▼',_0x515008=_0x17b12e+'\x20'+Math[_0x1d7a6b(0x1be)](_0x301c61)[_0x1d7a6b(0x158)](0x1)+_0x1d7a6b(0x1cd)):_0x515008=_0x1d7a6b(0x116);}else _0x515008='<span\x20style=\x22color:\x20#94a3b8;\x22>'+(_0x5803c2[_0x1d7a6b(0x181)]||_0x1d7a6b(0x115))+_0x1d7a6b(0x1ca);let _0x1a32f5='';if(_0x50dd93){const _0x1aca16=_0x50dd93[_0x1d7a6b(0x174)]===_0x1d7a6b(0x144)?_0x1d7a6b(0x1aa):_0x50dd93[_0x1d7a6b(0x174)]===_0x1d7a6b(0x1c3)?'#dc2626':_0x50dd93[_0x1d7a6b(0x174)]===_0x1d7a6b(0x1a4)?_0x1d7a6b(0xf3):_0x1d7a6b(0xf9);_0x1a32f5=_0x1d7a6b(0x147)+_0x1aca16+_0x1d7a6b(0xfc)+_0x50dd93[_0x1d7a6b(0xf4)]+_0x1d7a6b(0x128);}else _0x301c61!==null?_0x1a32f5=_0x1d7a6b(0x107):_0x1a32f5='<span\x20style=\x22color:\x20#94a3b8;\x20font-size:\x2011px;\x22>'+(_0x5803c2[_0x1d7a6b(0x181)]||'---')+'</span>';return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22border-bottom:\x201px\x20solid\x20#e2e8f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20font-weight:\x20500;\x22>Node\x20'+_0x4ace3d+_0x1d7a6b(0x1c8)+_0x4e6fbd+_0x1d7a6b(0x119)+_0x86bfdf+'%\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20color:\x20'+_0x4f25e3+_0x1d7a6b(0x102)+_0x515008+_0x1d7a6b(0x114)+parseFloat(_0x4c21d6)['toFixed'](0x1)+'\x20ngày\x20('+parseFloat(_0x4aac90)[_0x1d7a6b(0x158)](0x1)+'\x20giờ)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1a32f5+_0x1d7a6b(0x151);})[_0x3b57be(0x141)]('')+_0x3b57be(0x1b5),document['body']['appendChild'](_0x203513);const _0x559cf7=_0x203513[_0x3b57be(0x164)]('.tab-btn'),_0x4017f0=_0x203513['querySelectorAll'](_0x3b57be(0x1d0));_0x559cf7[_0x3b57be(0x152)](_0x58e1cf=>{const _0x3a79e4=_0x3b57be;_0x58e1cf[_0x3a79e4(0x123)](_0x3a79e4(0x1d5),()=>{const _0x24e4ec=_0x3a79e4,_0x4fb955=_0x58e1cf['getAttribute'](_0x24e4ec(0x1ba));_0x559cf7[_0x24e4ec(0x152)](_0x8d013c=>{const _0x41ecb1=_0x24e4ec;_0x8d013c[_0x41ecb1(0x14b)][_0x41ecb1(0x1cb)](_0x41ecb1(0x19a)),_0x8d013c[_0x41ecb1(0x15c)]['borderBottom']='none',_0x8d013c[_0x41ecb1(0x15c)][_0x41ecb1(0x190)]=_0x41ecb1(0x12e);}),_0x58e1cf[_0x24e4ec(0x14b)][_0x24e4ec(0x113)]('active'),_0x58e1cf[_0x24e4ec(0x15c)][_0x24e4ec(0xfa)]=_0x24e4ec(0x1c2),_0x58e1cf[_0x24e4ec(0x15c)][_0x24e4ec(0x190)]=_0x24e4ec(0xf3),_0x4017f0[_0x24e4ec(0x152)](_0x514f69=>{const _0x1fabd0=_0x24e4ec;_0x514f69['style'][_0x1fabd0(0x16a)]=_0x1fabd0(0x120);});const _0x426949=_0x203513[_0x24e4ec(0x186)]('#tab-'+_0x4fb955);if(_0x426949)_0x426949[_0x24e4ec(0x15c)][_0x24e4ec(0x16a)]=_0x24e4ec(0x155);});}),_0x203513[_0x3b57be(0x123)](_0x3b57be(0x1d5),function(_0x5f2564){const _0x442218=_0x3b57be;if(_0x5f2564['target']===_0x203513)_0x203513[_0x442218(0x1cb)]();});}function showDayComparisonAnalysis(_0x448367,_0x50a4c6){const _0x3206af=_0x23bb,_0x32222e=historicalData[_0x448367];if(!_0x32222e||Object[_0x3206af(0x16d)](_0x32222e)[_0x3206af(0x1a1)]===0x0){alert('Không\x20có\x20dữ\x20liệu\x20để\x20phân\x20tích');return;}let _0x1a9a8b='';if(selectedDate===_0x3206af(0x106)){alert(_0x3206af(0x1b6));return;}else{if(selectedDate===_0x3206af(0xfd)){alert(_0x3206af(0x1b6));return;}else{if(selectedDate===_0x3206af(0x1c9))_0x1a9a8b='2\x20ngày';else{if(selectedDate===_0x3206af(0x1cf))_0x1a9a8b=_0x3206af(0x11f);else selectedDate==='custom'&&(_0x1a9a8b=formatDateVN(customStartDate)+_0x3206af(0x104)+formatDateVN(customEndDate));}}}const _0x5b8172=Object[_0x3206af(0x16d)](_0x32222e)[_0x3206af(0x188)]((_0x54eb7c,_0x3edddb)=>_0x54eb7c-_0x3edddb);let _0x184d2e={};_0x5b8172[_0x3206af(0x152)](_0x4b2654=>{const _0x3ab47e=_0x3206af,_0x3f49ff=_0x32222e[_0x4b2654];if(!_0x3f49ff||_0x3f49ff[_0x3ab47e(0x1a1)]===0x0)return;const _0x42cfe8=[..._0x3f49ff][_0x3ab47e(0x188)]((_0x3b7f70,_0x253891)=>new Date(_0x3b7f70[_0x3ab47e(0x1bb)])-new Date(_0x253891[_0x3ab47e(0x1bb)]));_0x42cfe8[_0x3ab47e(0x152)](_0x5dde55=>{const _0x49d491=_0x3ab47e,_0x12e7ee=formatDateVN(_0x5dde55[_0x49d491(0x1bb)]),_0x5f2e65=_0x5dde55[_0x49d491(0x12a)]/0xa,_0x33cbe7=_0x5dde55[_0x49d491(0x178)]/0xa,_0x4120be=_0x5dde55[_0x49d491(0x135)];!_0x184d2e[_0x12e7ee]&&(_0x184d2e[_0x12e7ee]={'date':_0x12e7ee,'temps':[],'hums':[],'vbatReadings':[],'disconnections':[],'nodeData':{}}),_0x184d2e[_0x12e7ee][_0x49d491(0xf8)][_0x49d491(0x11e)](_0x5f2e65),_0x184d2e[_0x12e7ee]['hums'][_0x49d491(0x11e)](_0x33cbe7),_0x4120be!==null&&_0x4120be!==undefined&&_0x184d2e[_0x12e7ee][_0x49d491(0x15b)]['push'](_0x4120be),!_0x184d2e[_0x12e7ee][_0x49d491(0x1b3)][_0x4b2654]&&(_0x184d2e[_0x12e7ee]['nodeData'][_0x4b2654]={'temps':[],'hums':[],'timestamps':[]}),_0x184d2e[_0x12e7ee]['nodeData'][_0x4b2654][_0x49d491(0xf8)][_0x49d491(0x11e)](_0x5f2e65),_0x184d2e[_0x12e7ee][_0x49d491(0x1b3)][_0x4b2654][_0x49d491(0x1b1)][_0x49d491(0x11e)](_0x33cbe7),_0x184d2e[_0x12e7ee][_0x49d491(0x1b3)][_0x4b2654]['timestamps'][_0x49d491(0x11e)](new Date(_0x5dde55['timestamp']));});});let _0x1c627a=[],_0x4c9b43={'date':'','value':0x0},_0x3edee8={'date':'','value':0x64},_0x4914ff={'date':'','value':0x0},_0x26d1af={'date':'','value':0x64},_0x4a9f12={'date':'','value':0x0,'drop':0x0},_0x5313f9={'date':'','value':0x0,'count':0x0};Object['keys'](_0x184d2e)['sort']()[_0x3206af(0x152)](_0x19c373=>{const _0x127ab1=_0x3206af,_0x41079f=_0x184d2e[_0x19c373],_0x35997b=_0x41079f[_0x127ab1(0xf8)]['reduce']((_0x5f2992,_0x31a985)=>_0x5f2992+_0x31a985,0x0)/_0x41079f[_0x127ab1(0xf8)][_0x127ab1(0x1a1)],_0x1efa4b=Math[_0x127ab1(0xfe)](..._0x41079f[_0x127ab1(0xf8)]),_0x4b8335=Math[_0x127ab1(0xf0)](..._0x41079f[_0x127ab1(0xf8)]),_0x1cd799=_0x41079f[_0x127ab1(0xf8)]['filter'](_0x1d6e8b=>_0x1d6e8b>0x8||_0x1d6e8b<0x2)[_0x127ab1(0x1a1)],_0x5274da=countTempSuddenChanges(_0x41079f['nodeData']),_0x3ea778=_0x41079f[_0x127ab1(0x1b1)]['reduce']((_0x2ab604,_0x26adae)=>_0x2ab604+_0x26adae,0x0)/_0x41079f[_0x127ab1(0x1b1)][_0x127ab1(0x1a1)],_0x2e5fbd=Math[_0x127ab1(0xfe)](..._0x41079f[_0x127ab1(0x1b1)]),_0x1cac60=Math[_0x127ab1(0xf0)](..._0x41079f[_0x127ab1(0x1b1)]),_0x9d9354=_0x41079f[_0x127ab1(0x1b1)][_0x127ab1(0x14d)](_0x254c2b=>_0x254c2b>0x46||_0x254c2b<0x28)[_0x127ab1(0x1a1)],_0x43de0f=countHumSuddenChanges(_0x41079f[_0x127ab1(0x1b3)]);let _0x5d91f9=0x0,_0x4b3649=null,_0x2129df=null;_0x41079f[_0x127ab1(0x15b)][_0x127ab1(0x1a1)]>=0x2&&(_0x4b3649=_0x41079f[_0x127ab1(0x15b)][0x0],_0x2129df=_0x41079f[_0x127ab1(0x15b)][_0x41079f[_0x127ab1(0x15b)][_0x127ab1(0x1a1)]-0x1],_0x5d91f9=_0x4b3649-_0x2129df);let _0x1147a6=0x0;Object[_0x127ab1(0x16d)](_0x41079f[_0x127ab1(0x1b3)])['forEach'](_0x7db333=>{const _0x3b869d=_0x127ab1,_0x33819c=_0x41079f[_0x3b869d(0x1b3)][_0x7db333][_0x3b869d(0x149)],_0x497e9a=analyzeDisconnectionsForDay(_0x33819c);_0x1147a6+=_0x497e9a[_0x3b869d(0x1a1)];});const _0x27aa74=calculateDayScore({'tempOutOfRange':_0x1cd799,'tempSuddenCount':_0x5274da,'humOutOfRange':_0x9d9354,'humSuddenCount':_0x43de0f,'batteryDrop':_0x5d91f9,'disconnectCount':_0x1147a6});_0x1c627a['push']({'date':_0x19c373,'avgTemp':_0x35997b,'maxTemp':_0x1efa4b,'minTemp':_0x4b8335,'tempOutOfRange':_0x1cd799,'tempSuddenCount':_0x5274da,'avgHum':_0x3ea778,'maxHum':_0x2e5fbd,'minHum':_0x1cac60,'humOutOfRange':_0x9d9354,'humSuddenCount':_0x43de0f,'batteryDrop':_0x5d91f9>0x0?_0x5d91f9:0x0,'batteryStart':_0x4b3649,'batteryEnd':_0x2129df,'disconnectCount':_0x1147a6,'score':_0x27aa74,'readings':_0x41079f['temps'][_0x127ab1(0x1a1)]}),_0x1efa4b>_0x4c9b43[_0x127ab1(0xf7)]&&(_0x4c9b43={'date':_0x19c373,'value':_0x1efa4b}),_0x4b8335<_0x3edee8['value']&&(_0x3edee8={'date':_0x19c373,'value':_0x4b8335}),_0x2e5fbd>_0x4914ff[_0x127ab1(0xf7)]&&(_0x4914ff={'date':_0x19c373,'value':_0x2e5fbd}),_0x1cac60<_0x26d1af[_0x127ab1(0xf7)]&&(_0x26d1af={'date':_0x19c373,'value':_0x1cac60}),_0x5d91f9>_0x4a9f12[_0x127ab1(0x1c1)]&&(_0x4a9f12={'date':_0x19c373,'drop':_0x5d91f9,'value':_0x4b3649}),_0x1147a6>_0x5313f9[_0x127ab1(0x196)]&&(_0x5313f9={'date':_0x19c373,'count':_0x1147a6,'value':_0x1147a6});});const _0x2f8ea3=[..._0x1c627a][_0x3206af(0x188)]((_0x6992c,_0x1404e0)=>_0x1404e0[_0x3206af(0x1d6)]-_0x6992c[_0x3206af(0x1d6)]),_0x5c6f3e=_0x2f8ea3[0x0],_0x2166af=document['createElement'](_0x3206af(0x1ac));_0x2166af[_0x3206af(0x17b)]=_0x3206af(0x138),_0x2166af[_0x3206af(0x15c)][_0x3206af(0x137)]=_0x3206af(0x15f),_0x2166af[_0x3206af(0x1d3)]=_0x3206af(0x1c6)+_0x50a4c6+_0x3206af(0x180)+_0x1a9a8b+_0x3206af(0x191)+_0x4c9b43['value']['toFixed'](0x1)+_0x3206af(0x11b)+_0x4c9b43[_0x3206af(0x1d8)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#3b82f6,\x20#2563eb);\x20color:\x20white;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>❄️\x20Nhiệt\x20độ\x20thấp\x20nhất</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20bold;\x22>'+_0x3edee8['value'][_0x3206af(0x158)](0x1)+_0x3206af(0x11b)+_0x3edee8[_0x3206af(0x1d8)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#f59e0b,\x20#d97706);\x20color:\x20white;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>💧\x20Độ\x20ẩm\x20cao\x20nhất</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20bold;\x22>'+_0x4914ff[_0x3206af(0xf7)][_0x3206af(0x158)](0x1)+_0x3206af(0x112)+_0x4914ff[_0x3206af(0x1d8)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20linear-gradient(135deg,\x20#10b981,\x20#059669);\x20color:\x20white;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x22>🔋\x20Pin\x20giảm\x20nhiều\x20nhất</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20bold;\x22>'+_0x4a9f12[_0x3206af(0x1c1)][_0x3206af(0x158)](0x1)+'%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2010px;\x22>'+_0x4a9f12['date']+_0x3206af(0x12c)+_0x5313f9[_0x3206af(0x196)]+_0x3206af(0x108)+_0x5313f9[_0x3206af(0x1d8)]+_0x3206af(0x1a7)+_0x5c6f3e[_0x3206af(0x1d8)]+_0x3206af(0x17f)+_0x5c6f3e['score']+_0x3206af(0x1ae)+_0x5c6f3e['tempOutOfRange']+'\x20lần</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>⚡\x20Nhiệt\x20độ\x20đột\x20ngột</span><br><strong>'+_0x5c6f3e['tempSuddenCount']+_0x3206af(0x17a)+_0x5c6f3e['humOutOfRange']+'\x20lần</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>💨\x20Độ\x20ẩm\x20đột\x20ngột</span><br><strong>'+_0x5c6f3e[_0x3206af(0x1a6)]+'\x20lần</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span\x20style=\x22font-size:\x2011px;\x22>🔋\x20Pin\x20giảm</span><br><strong>'+_0x5c6f3e[_0x3206af(0x157)][_0x3206af(0x158)](0x1)+_0x3206af(0x1af)+_0x5c6f3e['disconnectCount']+'\x20lần</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Bảng\x20so\x20sánh\x20chi\x20tiết\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22margin:\x200\x200\x2015px\x200;\x22>📋\x20SO\x20SÁNH\x20CHI\x20TIẾT\x20CÁC\x20NGÀY</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22overflow-x:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20border:\x201px\x20solid\x20#e2e8f0;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#f1f5f9;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20left;\x22>Ngày</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>🌡️\x20Nhiệt\x20độ\x20TB</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📈\x20Max/Min</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Ngoài\x20ngưỡng</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>💧\x20Độ\x20ẩm\x20TB</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>⚠️\x20Ngoài\x20ngưỡng</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>🔋\x20Pin\x20giảm</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>📡\x20Mất\x20KN</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>🏆\x20Điểm</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1c627a[_0x3206af(0x154)](_0x235e09=>{const _0x2f543a=_0x3206af,_0x32bb31=_0x235e09['date']===_0x5c6f3e[_0x2f543a(0x1d8)],_0x4c8ca7=_0x235e09[_0x2f543a(0x105)]>=0xa?'🔴':_0x235e09[_0x2f543a(0x105)]>=0x5?'🟡':'🟢',_0x5bdffa=_0x235e09[_0x2f543a(0x176)]>=0xa?'🔴':_0x235e09[_0x2f543a(0x176)]>=0x5?'🟡':'🟢',_0x5f4bd9=_0x235e09[_0x2f543a(0x157)]>=0x5?'🔴':_0x235e09[_0x2f543a(0x157)]>=0x3?'🟡':'🟢',_0x3b634e=_0x235e09[_0x2f543a(0x19d)]>=0x5?'🔴':_0x235e09[_0x2f543a(0x19d)]>=0x2?'🟡':'🟢';return _0x2f543a(0x117)+(_0x32bb31?'#fef3c7':_0x2f543a(0x126))+_0x2f543a(0xf6)+(_0x32bb31?'bold':_0x2f543a(0x18c))+_0x2f543a(0x139)+_0x235e09[_0x2f543a(0x1d8)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>'+_0x235e09[_0x2f543a(0x185)]['toFixed'](0x1)+'°C</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20font-size:\x2011px;\x22>'+_0x235e09[_0x2f543a(0x10e)][_0x2f543a(0x158)](0x1)+'°\x20/\x20'+_0x235e09[_0x2f543a(0x1a8)][_0x2f543a(0x158)](0x1)+_0x2f543a(0x18a)+_0x4c8ca7+'\x20'+_0x235e09[_0x2f543a(0x105)]+_0x2f543a(0x170)+_0x235e09[_0x2f543a(0x140)][_0x2f543a(0x158)](0x1)+_0x2f543a(0x143)+_0x5bdffa+'\x20'+_0x235e09[_0x2f543a(0x176)]+_0x2f543a(0x170)+_0x5f4bd9+'\x20'+_0x235e09[_0x2f543a(0x157)][_0x2f543a(0x158)](0x1)+'%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x22>'+_0x3b634e+'\x20'+_0x235e09[_0x2f543a(0x19d)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x2010px;\x20text-align:\x20center;\x20font-weight:\x20bold;\x20color:\x20'+(_0x235e09[_0x2f543a(0x1d6)]>=0x32?'#ef4444':_0x235e09[_0x2f543a(0x1d6)]>=0x1e?'#f59e0b':_0x2f543a(0x146))+';\x22>'+_0x235e09[_0x2f543a(0x1d6)]+_0x2f543a(0x19c);})[_0x3206af(0x141)]('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Bảng\x20xếp\x20hạng\x20vấn\x20đề\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2025px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(3,\x201fr);\x20gap:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8fafc;\x20border-radius:\x2012px;\x20padding:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20style=\x22margin:\x200\x200\x2010px\x200;\x22>🔥\x20Nhiệt\x20độ</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Ngày\x20cao\x20nhất:</strong>\x20'+_0x4c9b43['date']+'\x20('+_0x4c9b43[_0x3206af(0xf7)][_0x3206af(0x158)](0x1)+'°C)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Ngày\x20thấp\x20nhất:</strong>\x20'+_0x3edee8['date']+'\x20('+_0x3edee8[_0x3206af(0xf7)][_0x3206af(0x158)](0x1)+_0x3206af(0x124)+(_0x4c9b43[_0x3206af(0xf7)]-_0x3edee8[_0x3206af(0xf7)])[_0x3206af(0x158)](0x1)+'°C</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8fafc;\x20border-radius:\x2012px;\x20padding:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20style=\x22margin:\x200\x200\x2010px\x200;\x22>💧\x20Độ\x20ẩm</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Ngày\x20cao\x20nhất:</strong>\x20'+_0x4914ff[_0x3206af(0x1d8)]+'\x20('+_0x4914ff[_0x3206af(0xf7)]['toFixed'](0x1)+_0x3206af(0x10b)+_0x26d1af[_0x3206af(0x1d8)]+'\x20('+_0x26d1af[_0x3206af(0xf7)]['toFixed'](0x1)+_0x3206af(0x17e)+(_0x4914ff[_0x3206af(0xf7)]-_0x26d1af['value'])[_0x3206af(0x158)](0x1)+'%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8fafc;\x20border-radius:\x2012px;\x20padding:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20style=\x22margin:\x200\x200\x2010px\x200;\x22>🔋\x20Pin</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>Ngày\x20giảm\x20nhiều:</strong>\x20'+_0x4a9f12[_0x3206af(0x1d8)]+'\x20('+_0x4a9f12[_0x3206af(0x1c1)]['toFixed'](0x1)+_0x3206af(0x16c)+_0x5313f9[_0x3206af(0x1d8)]+'\x20('+_0x5313f9[_0x3206af(0x196)]+_0x3206af(0x13c),document[_0x3206af(0x1d4)][_0x3206af(0x150)](_0x2166af),_0x2166af[_0x3206af(0x123)]('click',function(_0x4221c1){const _0x1339b7=_0x3206af;if(_0x4221c1[_0x1339b7(0x121)]===_0x2166af)_0x2166af['remove']();});}function countTempSuddenChanges(_0x11f565){const _0x590db8=_0x23bb;let _0x2c2dc6=0x0;return Object['keys'](_0x11f565)[_0x590db8(0x152)](_0x40888f=>{const _0x25b86f=_0x590db8,_0x5ad836=_0x11f565[_0x40888f][_0x25b86f(0xf8)],_0x5e81ed=_0x11f565[_0x40888f][_0x25b86f(0x149)];for(let _0x534aa6=0x1;_0x534aa6<_0x5ad836[_0x25b86f(0x1a1)];_0x534aa6++){const _0x2351f2=Math['abs'](_0x5ad836[_0x534aa6]-_0x5ad836[_0x534aa6-0x1]),_0x5afe1b=(_0x5e81ed[_0x534aa6]-_0x5e81ed[_0x534aa6-0x1])/(0x3e8*0x3c);if(_0x2351f2>=0x2&&_0x5afe1b<=0xa)_0x2c2dc6++;}}),_0x2c2dc6;}function _0x23bb(_0x31417f,_0x4ab0dd){_0x31417f=_0x31417f-0xee;const _0x397006=_0x3970();let _0x23bb87=_0x397006[_0x31417f];return _0x23bb87;}function countHumSuddenChanges(_0x12a1c0){const _0x36cc32=_0x23bb;let _0xa1e3f9=0x0;return Object[_0x36cc32(0x16d)](_0x12a1c0)[_0x36cc32(0x152)](_0xfd6ca7=>{const _0x13df9e=_0x36cc32,_0x10969f=_0x12a1c0[_0xfd6ca7]['hums'],_0x34ba90=_0x12a1c0[_0xfd6ca7]['timestamps'];for(let _0x196882=0x1;_0x196882<_0x10969f[_0x13df9e(0x1a1)];_0x196882++){const _0x35da65=Math[_0x13df9e(0x1be)](_0x10969f[_0x196882]-_0x10969f[_0x196882-0x1]),_0x476c5c=(_0x34ba90[_0x196882]-_0x34ba90[_0x196882-0x1])/(0x3e8*0x3c);if(_0x35da65>=0xa&&_0x476c5c<=0x2)_0xa1e3f9++;}}),_0xa1e3f9;}function analyzeDisconnectionsForDay(_0x2b3947){const _0x5a7a94=_0x23bb;if(_0x2b3947[_0x5a7a94(0x1a1)]<0x2)return[];const _0x3785d2=[];for(let _0x4169bf=0x0;_0x4169bf<_0x2b3947[_0x5a7a94(0x1a1)]-0x1;_0x4169bf++){const _0x5934a1=(_0x2b3947[_0x4169bf+0x1]-_0x2b3947[_0x4169bf])/(0x3e8*0x3c);_0x5934a1>0x14&&_0x3785d2[_0x5a7a94(0x11e)]({'gap':_0x5934a1});}return _0x3785d2;}function calculateDayScore(_0x5cf139){const _0x56f91f=_0x23bb;let _0x41c9f5=0x0;return _0x41c9f5+=Math[_0x56f91f(0xf0)](_0x5cf139[_0x56f91f(0x105)],0x1e)*0x2,_0x41c9f5+=Math['min'](_0x5cf139['tempSuddenCount'],0x14)*1.5,_0x41c9f5+=Math[_0x56f91f(0xf0)](_0x5cf139['humOutOfRange'],0x1e)*0x2,_0x41c9f5+=Math['min'](_0x5cf139[_0x56f91f(0x1a6)],0x14)*1.5,_0x41c9f5+=Math['min'](_0x5cf139[_0x56f91f(0x157)]*0x2,0x1e),_0x41c9f5+=Math[_0x56f91f(0xf0)](_0x5cf139[_0x56f91f(0x19d)]*0x3,0x1e),Math['min'](Math[_0x56f91f(0x197)](_0x41c9f5),0x64);}function testAction(_0x50e1a3,_0x358e2a){const _0x4ec69e=_0x23bb,_0x5b09dd=document[_0x4ec69e(0x19f)]('dropdown-'+_0x50e1a3);if(_0x5b09dd)_0x5b09dd[_0x4ec69e(0x14b)]['remove'](_0x4ec69e(0x14a));const _0x1d7631=stores[_0x50e1a3];switch(_0x358e2a){case _0x4ec69e(0x159):showStoreAnalysis(_0x50e1a3,_0x1d7631);break;case _0x4ec69e(0x173):showAbnormalDetection(_0x50e1a3,_0x1d7631);break;case'trend':showDayComparisonAnalysis(_0x50e1a3,_0x1d7631);break;}}
+
+
+// Show store analysis - Compare mean of all nodes in selected date range
+function showStoreAnalysis(storeId, storeName) {
+
+  // Get date range text
+  let dateRangeText = '';
+  if (selectedDate === 'today') {
+    dateRangeText = 'Hôm nay';
+  } else if (selectedDate === 'yesterday') {
+    dateRangeText = 'Hôm qua';
+  } else if (selectedDate === '2days') {
+    dateRangeText = '2 ngày trước';
+  } else if (selectedDate === '3days') {
+    dateRangeText = '3 ngày trước';
+  } else if (selectedDate === 'custom') {
+    dateRangeText = `${formatDateVN(customStartDate)} → ${formatDateVN(customEndDate)}`;
+  }
+  
+  // Get all nodes data
+  const nodesData = historicalData[storeId];
+  if (!nodesData || Object.keys(nodesData).length === 0) {
+    alert(`Không có dữ liệu trong khoảng thời gian ${dateRangeText}`);
+    return;
+  }
+  
+  const nodeIds = Object.keys(nodesData).sort((a, b) => a - b);
+  
+  // Calculate mean for each node
+  let nodeStats = [];
+  let allTemps = [];
+  let allHum = [];
+  
+  nodeIds.forEach(nodeId => {
+    const readings = nodesData[nodeId];
+    if (!readings || readings.length === 0) return;
+    
+    const temps = readings.map(r => r.temperature / 10);
+    const hums = readings.map(r => r.humidity / 10);
+    
+    const avgTemp = temps.reduce((a,b) => a+b, 0) / temps.length;
+    const avgHum = hums.reduce((a,b) => a+b, 0) / hums.length;
+    const maxTemp = Math.max(...temps);
+    const minTemp = Math.min(...temps);
+    
+    allTemps.push(...temps);
+    allHum.push(...hums);
+    
+    nodeStats.push({
+      nodeId: nodeId,
+      avgTemp: avgTemp,
+      avgHum: avgHum,
+      maxTemp: maxTemp,
+      minTemp: minTemp,
+      readings: readings.length
+    });
+  });
+  
+  // Calculate store mean
+  const storeAvgTemp = (allTemps.reduce((a,b) => a+b, 0) / allTemps.length).toFixed(1);
+  const storeAvgHum = (allHum.reduce((a,b) => a+b, 0) / allHum.length).toFixed(1);
+  
+  // Find best and worst nodes
+  const bestNode = [...nodeStats].sort((a,b) => 
+    Math.abs(a.avgTemp - 5) - Math.abs(b.avgTemp - 5)
+  )[0];
+  
+  const worstNode = [...nodeStats].sort((a,b) => 
+    Math.abs(b.avgTemp - 5) - Math.abs(a.avgTemp - 5)
+  )[0];
+  
+  // Create modal
+  const modal = document.createElement('div');
+  modal.className = 'modal-overlay';
+  modal.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+  `;
+  
+  modal.innerHTML = `
+    <div style="background: white; width: 90%; max-width: 800px; border-radius: 20px; overflow: hidden;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h2 style="margin: 0;">📊 PHÂN TÍCH TỔNG QUÁT</h2>
+            <p style="margin: 5px 0 0; opacity: 0.9;">${storeName}</p>
+            <p style="margin: 5px 0 0; opacity: 0.8; font-size: 12px;">📅 ${dateRangeText}</p>
+          </div>
+          <button onclick="this.closest('.modal-overlay').remove()" style="background: rgba(255,255,255,0.2); border: none; color: white; font-size: 24px; cursor: pointer; width: 36px; height: 36px; border-radius: 50%;">✕</button>
+        </div>
+      </div>
+      
+      <div style="padding: 25px;">
+        <!-- Store Mean -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px;">
+          <div style="background: #f8fafc; padding: 20px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 12px; color: #64748b;">🌡️ NHIỆT ĐỘ TRUNG BÌNH KHO</div>
+            <div style="font-size: 36px; font-weight: bold; color: #ef4444;">${storeAvgTemp}°C</div>
+            <div style="font-size: 11px; color: #64748b;">Ngưỡng: 2°C - 8°C</div>
+          </div>
+          <div style="background: #f8fafc; padding: 20px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 12px; color: #64748b;">💧 ĐỘ ẨM TRUNG BÌNH KHO</div>
+            <div style="font-size: 36px; font-weight: bold; color: #3b82f6;">${storeAvgHum}%</div>
+            <div style="font-size: 11px; color: #64748b;">Ngưỡng: 40% - 70%</div>
+          </div>
+        </div>
+        
+        <!-- Node Comparison Table -->
+        <h3 style="margin: 0 0 15px 0;">📋 SO SÁNH TRUNG BÌNH CÁC NODE</h3>
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+              <tr style="background: #f1f5f9;">
+                <th style="padding: 12px; text-align: left;">Node</th>
+                <th style="padding: 12px; text-align: center;">🌡️ Nhiệt độ TB</th>
+                <th style="padding: 12px; text-align: center;">💧 Độ ẩm TB</th>
+                <th style="padding: 12px; text-align: center;">📊 So với TB kho</th>
+                <th style="padding: 12px; text-align: center;">📝 Số bản ghi</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${nodeStats.map(node => {
+                const tempDiff = (node.avgTemp - storeAvgTemp).toFixed(1);
+                const diffColor = tempDiff > 0 ? '#ef4444' : tempDiff < 0 ? '#3b82f6' : '#64748b';
+                const diffIcon = tempDiff > 0 ? '▲' : tempDiff < 0 ? '▼' : '●';
+                
+                return `
+                  <tr style="border-bottom: 1px solid #e2e8f0;">
+                    <td style="padding: 12px;"><strong>Node ${node.nodeId}</strong></td>
+                    <td style="padding: 12px; text-align: center; font-weight: bold; color: #ef4444;">${node.avgTemp.toFixed(1)}°C</td>
+                    <td style="padding: 12px; text-align: center; font-weight: bold; color: #3b82f6;">${node.avgHum.toFixed(1)}%</td>
+                    <td style="padding: 12px; text-align: center; color: ${diffColor};">
+                      ${diffIcon} ${Math.abs(tempDiff)}°C
+                    </td>
+                    <td style="padding: 12px; text-align: center;">${node.readings}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+        
+        <!-- Insights -->
+        <div style="margin-top: 20px; padding: 15px; background: #fef3c7; border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 20px;">💡</span>
+            <div style="flex: 1;">
+              <strong>Nhận xét:</strong><br>
+              • ${storeAvgTemp > 8 ? '⚠️ Nhiệt độ kho cao hơn ngưỡng khuyến nghị' : storeAvgTemp < 2 ? '❄️ Nhiệt độ kho thấp hơn ngưỡng khuyến nghị' : '✅ Nhiệt độ kho trong ngưỡng an toàn'}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) modal.remove();
+  });
+}
+
+function showAbnormalDetection(storeId, storeName) {
+   const nodesData = historicalData[storeId];
+  if (!nodesData || Object.keys(nodesData).length === 0) {
+    alert('Không có dữ liệu để phân tích');
+    return;
+  }
+  
+  // Lấy date range
+  let dateRangeText = '';
+  if (selectedDate === 'today') dateRangeText = 'Hôm nay';
+  else if (selectedDate === 'yesterday') dateRangeText = 'Hôm qua';
+  else if (selectedDate === '2days') dateRangeText = '2 ngày trước';
+  else if (selectedDate === '3days') dateRangeText = '3 ngày trước';
+  else if (selectedDate === 'custom') dateRangeText = `${formatDateVN(customStartDate)} → ${formatDateVN(customEndDate)}`;
+  
+  const nodeIds = Object.keys(nodesData).sort((a, b) => a - b);
+  
+  // Lưu trữ dữ liệu cho từng node
+  let nodeStats = {};
+  
+  nodeIds.forEach(nodeId => {
+    const readings = nodesData[nodeId];
+    if (!readings || readings.length === 0) return;
+    
+    const sortedReadings = [...readings].sort((a, b) => 
+      new Date(a.timestamp) - new Date(b.timestamp)
+    );
+    
+    // Khởi tạo stats cho node
+    nodeStats[nodeId] = {
+      // Nhiệt độ
+      tempOutOfRange: [],
+      tempOutCount: 0,
+      tempSuddenChange: [],
+      tempSuddenCount: 0,
+      tempSuddenLowCount: 0,      // 1-2°C/10p
+      tempSuddenMediumCount: 0,   // 2-3°C/10p
+      tempSuddenHighCount: 0,     // 3-5°C/10p
+      tempSuddenSevereCount: 0,   // >5°C/10p
+      // Độ ẩm
+      humOutOfRange: [],
+      humOutCount: 0,
+      humSuddenChange: [],
+      humSuddenCount: 0,
+      humSuddenLowCount: 0,       // 5-10%/2p
+      humSuddenMediumCount: 0,    // 10-15%/2p
+      humSuddenHighCount: 0,      // 15-20%/2p
+      humSuddenSevereCount: 0,    // >20%/2p
+      // Kết nối
+      disconnections: [],
+      disconnectionCount: 0,
+      disconnectionFrequency: 0,
+      // Pin
+      batteryFrom: null,
+      batteryTo: null,
+      batteryTotalChange: null,
+      batteryAbsChange: null,
+      batteryHours: 0,
+      batteryDays: 0,
+      batteryFromTime: null,
+      batteryToTime: null,
+      batteryAnomaly: null
+    };
+    
+    // === 1. NHIỆT ĐỘ NGOÀI NGƯỠNG (2-8°C) ===
+    sortedReadings.forEach(reading => {
+      const temp = reading.temperature / 10;
+      if (temp > 8) {
+        nodeStats[nodeId].tempOutCount++;
+        nodeStats[nodeId].tempOutOfRange.push({
+          time: formatDateTimeVN(reading.timestamp),
+          value: temp.toFixed(1),
+          type: 'high',
+          message: `Nhiệt độ cao: ${temp.toFixed(1)}°C > 8°C`
+        });
+      } else if (temp < 2) {
+        nodeStats[nodeId].tempOutCount++;
+        nodeStats[nodeId].tempOutOfRange.push({
+          time: formatDateTimeVN(reading.timestamp),
+          value: temp.toFixed(1),
+          type: 'low',
+          message: `Nhiệt độ thấp: ${temp.toFixed(1)}°C < 2°C`
+        });
+      }
+    });
+    
+    // === 2. NHIỆT ĐỘ THAY ĐỔI ĐỘT NGỘT (Phân loại theo mức độ) ===
+    for (let i = 1; i < sortedReadings.length; i++) {
+      const current = sortedReadings[i];
+      const previous = sortedReadings[i - 1];
+      
+      const currentTemp = current.temperature / 10;
+      const previousTemp = previous.temperature / 10;
+      const tempChange = Math.abs(currentTemp - previousTemp);
+      
+      const currentTime = new Date(current.timestamp);
+      const previousTime = new Date(previous.timestamp);
+      const timeDiffMinutes = (currentTime - previousTime) / (1000 * 60);
+      
+      if (timeDiffMinutes <= 10) {
+        let changeLevel = '';
+        let changeColor = '';
+        
+        if (tempChange >= 5) {
+          changeLevel = 'NGHIÊM TRỌNG';
+          changeColor = '#7f1a1a';
+          nodeStats[nodeId].tempSuddenSevereCount++;
+        } else if (tempChange >= 3) {
+          changeLevel = 'CAO';
+          changeColor = '#dc2626';
+          nodeStats[nodeId].tempSuddenHighCount++;
+        } else if (tempChange >= 2) {
+          changeLevel = 'TRUNG BÌNH';
+          changeColor = '#f59e0b';
+          nodeStats[nodeId].tempSuddenMediumCount++;
+        } else if (tempChange >= 1) {
+          changeLevel = 'NHẸ';
+          changeColor = '#eab308';
+          nodeStats[nodeId].tempSuddenLowCount++;
+        }
+        
+        if (tempChange >= 1) {
+          nodeStats[nodeId].tempSuddenCount++;
+          nodeStats[nodeId].tempSuddenChange.push({
+            time: formatDateTimeVN(current.timestamp),
+            change: tempChange.toFixed(1),
+            from: previousTemp.toFixed(1),
+            to: currentTemp.toFixed(1),
+            duration: Math.round(timeDiffMinutes),
+            level: changeLevel,
+            color: changeColor
+          });
+        }
+      }
+    }
+    
+    // === 3. ĐỘ ẨM NGOÀI NGƯỠNG (40-70%) ===
+    sortedReadings.forEach(reading => {
+      const hum = reading.humidity / 10;
+      if (hum > 70) {
+        nodeStats[nodeId].humOutCount++;
+        nodeStats[nodeId].humOutOfRange.push({
+          time: formatDateTimeVN(reading.timestamp),
+          value: hum.toFixed(1),
+          type: 'high',
+          message: `Độ ẩm cao: ${hum.toFixed(1)}% > 70%`
+        });
+      } else if (hum < 40) {
+        nodeStats[nodeId].humOutCount++;
+        nodeStats[nodeId].humOutOfRange.push({
+          time: formatDateTimeVN(reading.timestamp),
+          value: hum.toFixed(1),
+          type: 'low',
+          message: `Độ ẩm thấp: ${hum.toFixed(1)}% < 40%`
+        });
+      }
+    });
+    
+    // === 4. ĐỘ ẨM THAY ĐỔI ĐỘT NGỘT (Phân loại theo mức độ) ===
+    for (let i = 1; i < sortedReadings.length; i++) {
+      const current = sortedReadings[i];
+      const previous = sortedReadings[i - 1];
+      
+      const currentHum = current.humidity / 10;
+      const previousHum = previous.humidity / 10;
+      const humChange = Math.abs(currentHum - previousHum);
+      
+      const currentTime = new Date(current.timestamp);
+      const previousTime = new Date(previous.timestamp);
+      const timeDiffMinutes = (currentTime - previousTime) / (1000 * 60);
+      
+      if (timeDiffMinutes <= 2) {
+        let changeLevel = '';
+        let changeColor = '';
+        
+        if (humChange >= 20) {
+          changeLevel = 'NGHIÊM TRỌNG';
+          changeColor = '#7f1a1a';
+          nodeStats[nodeId].humSuddenSevereCount++;
+        } else if (humChange >= 15) {
+          changeLevel = 'CAO';
+          changeColor = '#dc2626';
+          nodeStats[nodeId].humSuddenHighCount++;
+        } else if (humChange >= 10) {
+          changeLevel = 'TRUNG BÌNH';
+          changeColor = '#f59e0b';
+          nodeStats[nodeId].humSuddenMediumCount++;
+        } else if (humChange >= 5) {
+          changeLevel = 'NHẸ';
+          changeColor = '#eab308';
+          nodeStats[nodeId].humSuddenLowCount++;
+        }
+        
+        if (humChange >= 5) {
+          nodeStats[nodeId].humSuddenCount++;
+          nodeStats[nodeId].humSuddenChange.push({
+            time: formatDateTimeVN(current.timestamp),
+            change: humChange.toFixed(1),
+            from: previousHum.toFixed(1),
+            to: currentHum.toFixed(1),
+            duration: Math.round(timeDiffMinutes),
+            level: changeLevel,
+            color: changeColor
+          });
+        }
+      }
+    }
+    
+    // === 5. MẤT KẾT NỐI (Trên 20p, tần suất >= 2 lần/ngày) ===
+    const disconnections = analyzeDisconnections(sortedReadings, 20);
+    if (disconnections.length > 0) {
+      const firstTime = new Date(sortedReadings[0].timestamp);
+      const lastTime = new Date(sortedReadings[sortedReadings.length - 1].timestamp);
+      const daysDiff = Math.max(1, (lastTime - firstTime) / (1000 * 60 * 60 * 24));
+      const frequencyPerDay = disconnections.length / daysDiff;
+      
+      if (frequencyPerDay >= 2) {
+        nodeStats[nodeId].disconnectionCount = disconnections.length;
+        nodeStats[nodeId].disconnectionFrequency = frequencyPerDay.toFixed(1);
+        nodeStats[nodeId].disconnections = disconnections.map(dis => ({
+          startTime: dis.startTime,
+          endTime: dis.endTime,
+          duration: dis.durationText,
+          date: dis.startDate
+        }));
+      }
+    }
+    
+// === 6. PIN THAY ĐỔI BẤT THƯỜNG ===
+const readingsWithVbat = sortedReadings.filter(r => r.vbat_percent !== null && r.vbat_percent !== undefined);
+if (readingsWithVbat.length >= 2) {
+  const firstVbat = readingsWithVbat[0];
+  const lastVbat = readingsWithVbat[readingsWithVbat.length - 1];
+  
+  const firstTime = new Date(firstVbat.timestamp);
+  const lastTime = new Date(lastVbat.timestamp);
+  const hoursDiff = (lastTime - firstTime) / (1000 * 60 * 60);
+  const daysDiff = hoursDiff / 24;
+  
+  const totalChange = lastVbat.vbat_percent - firstVbat.vbat_percent;
+  const absTotalChange = Math.abs(totalChange);
+  
+  // Lưu thông tin cơ bản
+  nodeStats[nodeId].batteryFrom = firstVbat.vbat_percent;
+  nodeStats[nodeId].batteryTo = lastVbat.vbat_percent;
+  nodeStats[nodeId].batteryTotalChange = totalChange.toFixed(1);
+  nodeStats[nodeId].batteryAbsChange = absTotalChange.toFixed(1);
+  nodeStats[nodeId].batteryHours = hoursDiff.toFixed(1);
+  nodeStats[nodeId].batteryDays = daysDiff.toFixed(1);
+  nodeStats[nodeId].batteryFromTime = formatDateTimeVN(firstVbat.timestamp);
+  nodeStats[nodeId].batteryToTime = formatDateTimeVN(lastVbat.timestamp);
+  
+  // 🔥 CÁC MỨC CẢNH BÁO DỰA TRÊN TỔNG THAY ĐỔI
+  let warningLevel = null;
+  let warningMessage = '';
+  let warningColor = '';
+  
+  if (absTotalChange > 15) {
+    warningLevel = 'critical';
+    warningMessage = `⚠️ NGHIÊM TRỌNG: Thay đổi ${absTotalChange.toFixed(1)}%`;
+    warningColor = '#7f1a1a';
+  } else if (absTotalChange > 10) {
+    warningLevel = 'high';
+    warningMessage = `⚠️ CAO: Thay đổi ${absTotalChange.toFixed(1)}%`;
+    warningColor = '#dc2626';
+  } else if (absTotalChange > 5) {
+    warningLevel = 'medium';
+    warningMessage = `⚠️ TRUNG BÌNH: Thay đổi ${absTotalChange.toFixed(1)}%`;
+    warningColor = '#f59e0b';
+  } else if (absTotalChange > 2) {
+    warningLevel = 'low';
+    warningMessage = `⚠️ NHẸ: Thay đổi ${absTotalChange.toFixed(1)}%`;
+    warningColor = '#eab308';
+  }
+  
+  if (warningLevel) {
+    nodeStats[nodeId].batteryAnomaly = {
+      from: firstVbat.vbat_percent,
+      to: lastVbat.vbat_percent,
+      totalChange: totalChange.toFixed(1),
+      absTotalChange: absTotalChange.toFixed(1),
+      period: daysDiff.toFixed(1),
+      hours: hoursDiff.toFixed(1),
+      fromTime: formatDateTimeVN(firstVbat.timestamp),
+      toTime: formatDateTimeVN(lastVbat.timestamp),
+      direction: totalChange > 0 ? 'tăng' : 'giảm',
+      level: warningLevel,
+      message: warningMessage,
+      color: warningColor
+    };
+  }
+} else if (readingsWithVbat.length === 1) {
+  nodeStats[nodeId].batteryFrom = readingsWithVbat[0].vbat_percent;
+  nodeStats[nodeId].batteryTo = 'N/A';
+  nodeStats[nodeId].batteryTotalChange = null;
+  nodeStats[nodeId].batteryNote = 'Chỉ có 1 lần đo pin';
+} else {
+  nodeStats[nodeId].batteryFrom = 'N/A';
+  nodeStats[nodeId].batteryTo = 'N/A';
+  nodeStats[nodeId].batteryTotalChange = null;
+  nodeStats[nodeId].batteryNote = 'Không có dữ liệu pin';
+}
+
+  });
+  
+  // Tạo modal với tabs
+  const modal = document.createElement('div');
+  modal.className = 'modal-overlay';
+  modal.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+  `;
+  
+  modal.innerHTML = `
+    <div style="background: white; width: 95%; max-width: 1300px; max-height: 90vh; border-radius: 20px; overflow: hidden;">
+      <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; padding: 20px 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h2 style="margin: 0;">⚠️ PHÁT HIỆN BẤT THƯỜNG</h2>
+            <p style="margin: 5px 0 0; opacity: 0.9;">${storeName}</p>
+            <p style="margin: 5px 0 0; opacity: 0.8; font-size: 12px;">📅 ${dateRangeText}</p>
+          </div>
+          <button onclick="this.closest('.modal-overlay').remove()" style="background: rgba(255,255,255,0.2); border: none; color: white; font-size: 24px; cursor: pointer; width: 36px; height: 36px; border-radius: 50%;">✕</button>
+        </div>
+      </div>
+      
+      <!-- Tabs -->
+      <div style="display: flex; border-bottom: 1px solid #e2e8f0; background: white; padding: 0 20px; overflow-x: auto;">
+        <div class="tab-btn active" data-tab="temp" style="padding: 12px 20px; cursor: pointer; font-weight: 500; border-bottom: 2px solid #f59e0b; color: #f59e0b; white-space: nowrap;">
+          🌡️ NHIỆT ĐỘ
+        </div>
+        <div class="tab-btn" data-tab="hum" style="padding: 12px 20px; cursor: pointer; font-weight: 500; color: #64748b; white-space: nowrap;">
+          💧 ĐỘ ẨM
+        </div>
+        <div class="tab-btn" data-tab="connection" style="padding: 12px 20px; cursor: pointer; font-weight: 500; color: #64748b; white-space: nowrap;">
+          📡 MẤT KẾT NỐI
+        </div>
+        <div class="tab-btn" data-tab="battery" style="padding: 12px 20px; cursor: pointer; font-weight: 500; color: #64748b; white-space: nowrap;">
+          🔋 PIN
+        </div>
+      </div>
+      
+<!-- Tab 1: Nhiệt độ -->
+<div id="tab-temp" class="tab-content" style="display: block; padding: 20px; max-height: calc(90vh - 280px); overflow-y: auto;">
+  
+  <!-- Bảng tổng hợp nhiệt độ các node -->
+  <div style="margin-bottom: 25px; overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0;">
+      <thead>
+        <tr style="background: #f1f5f9;">
+          <th style="padding: 10px; text-align: left;">Node</th>
+          <th style="padding: 10px; text-align: center;">🌡️ Ngoài ngưỡng (2-8°C)</th>
+          <th style="padding: 10px; text-align: center;">⚡ Đột ngột (≥2°C/10p)</th>
+          <th style="padding: 10px; text-align: center;">📊 Mức độ</th>
+          <th style="padding: 10px; text-align: center;">⚠️ Cảnh báo & Khuyến nghị</th>
+         </tr>
+      </thead>
+      <tbody>
+        ${Object.keys(nodeStats).sort((a,b) => a-b).map(nodeId => {
+          const stats = nodeStats[nodeId];
+          const tempOutCount = stats.tempOutCount;
+          const tempSuddenCount = stats.tempSuddenCount;
+          
+          // Kết hợp cả 2 yếu tố để phân loại
+          let level = '';
+          let levelColor = '';
+          let levelBg = '';
+          let warningMessage = '';
+          let recommendation = '';
+          
+          // Mức NGHIÊM TRỌNG: >15 lần ngoài ngưỡng HOẶC >10 lần đột ngột
+          if (tempOutCount > 15 || tempSuddenCount > 10) {
+            level = 'NGHIÊM TRỌNG';
+            levelColor = '#7f1a1a';
+            levelBg = '#7f1a1a20';
+            warningMessage = '⚠️ HỆ THỐNG LẠNH CÓ VẤN ĐỀ NGHIÊM TRỌNG';
+            recommendation = '📌 CẤP CỨU: Kiểm tra máy nén, gas, cảm biến nhiệt độ ngay!';
+          
+          // Mức CAO: 10-15 lần ngoài ngưỡng HOẶC 5-10 lần đột ngột
+          } else if ((tempOutCount >= 10 && tempOutCount <= 15) || (tempSuddenCount >= 5 && tempSuddenCount <= 10)) {
+            level = 'CAO';
+            levelColor = '#dc2626';
+            levelBg = '#dc262620';
+            warningMessage = '⚠️ HỆ THỐNG LẠNH HOẠT ĐỘNG KHÔNG ỔN ĐỊNH';
+            recommendation = '🔧 Kiểm tra quạt dàn lạnh, vệ sinh bảo trì, kiểm tra cài đặt nhiệt độ';
+          
+          // Mức TRUNG BÌNH: 5-9 lần ngoài ngưỡng HOẶC 2-4 lần đột ngột
+          } else if ((tempOutCount >= 5 && tempOutCount <= 9) || (tempSuddenCount >= 2 && tempSuddenCount <= 4)) {
+            level = 'TRUNG BÌNH';
+            levelColor = '#f59e0b';
+            levelBg = '#f59e0b20';
+            warningMessage = '⚠️ MÁY LẠNH HOẠT ĐỘNG KHÔNG ỔN ĐỊNH';
+            recommendation = '📊 Theo dõi sát, kiểm tra nhiệt độ cài đặt, hạn chế mở cửa';
+          
+          // Mức NHẸ: 2-4 lần ngoài ngưỡng HOẶC 1 lần đột ngột
+          } else if ((tempOutCount >= 2 && tempOutCount <= 4) || tempSuddenCount === 1) {
+            level = 'NHẸ';
+            levelColor = '#eab308';
+            levelBg = '#eab30820';
+            warningMessage = '⚠️ CÓ THỂ DO MỞ CỬA HOẶC XẾP HÀNG';
+            recommendation = '👀 Theo dõi thêm, hạn chế mở cửa kho lạnh';
+          
+          // BÌNH THƯỜNG
+          } else {
+            level = 'BÌNH THƯỜNG';
+            levelColor = '#22c55e';
+            levelBg = '#22c55e20';
+            warningMessage = '✅ HỆ THỐNG HOẠT ĐỘNG TỐT';
+            recommendation = '👍 Tiếp tục duy trì';
+          }
+          
+          // Màu sắc cho số lần
+          let outCountColor = '#64748b';
+          if (tempOutCount > 15) outCountColor = '#7f1a1a';
+          else if (tempOutCount >= 10) outCountColor = '#dc2626';
+          else if (tempOutCount >= 5) outCountColor = '#f59e0b';
+          else if (tempOutCount >= 2) outCountColor = '#eab308';
+          
+          let suddenCountColor = '#64748b';
+          if (tempSuddenCount > 10) suddenCountColor = '#7f1a1a';
+          else if (tempSuddenCount >= 5) suddenCountColor = '#dc2626';
+          else if (tempSuddenCount >= 2) suddenCountColor = '#f59e0b';
+          else if (tempSuddenCount >= 1) suddenCountColor = '#eab308';
+          
+          return `
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 10px; font-weight: 500;">Node ${nodeId}</td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="color: ${outCountColor}; font-weight: bold; font-size: 16px;">${tempOutCount}</span>
+                <div style="font-size: 10px; color: #94a3b8;">lần</div>
+              </td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="color: ${suddenCountColor}; font-weight: bold; font-size: 16px;">${tempSuddenCount}</span>
+                <div style="font-size: 10px; color: #94a3b8;">lần</div>
+              </td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="background: ${levelBg}; color: ${levelColor}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                  ${level}
+                </span>
+              </td>
+              <td style="padding: 10px;">
+                <div style="font-weight: 600; color: ${levelColor};">${warningMessage}</div>
+                <div style="font-size: 11px; color: #475569; margin-top: 4px;">${recommendation}</div>
+              </td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Bảng phân loại mức độ -->
+  <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
+    <div style="background: #eab30820; padding: 10px; border-radius: 8px; border-left: 3px solid #eab308;">
+      <div style="font-size: 12px; color: #854d0e; font-weight: bold;">⚠️ NHẸ</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 2-4 lần</div>
+      <div style="font-size: 11px;">⚡ Đột ngột: 1 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Có thể do mở cửa, xếp hàng</div>
+    </div>
+    <div style="background: #f59e0b20; padding: 10px; border-radius: 8px; border-left: 3px solid #f59e0b;">
+      <div style="font-size: 12px; color: #c2410c; font-weight: bold;">⚠️ TRUNG BÌNH</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 5-9 lần</div>
+      <div style="font-size: 11px;">⚡ Đột ngột: 2-4 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Máy lạnh không ổn định</div>
+    </div>
+    <div style="background: #dc262620; padding: 10px; border-radius: 8px; border-left: 3px solid #dc2626;">
+      <div style="font-size: 12px; color: #991b1b; font-weight: bold;">⚠️ CAO</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 10-15 lần</div>
+      <div style="font-size: 11px;">⚡ Đột ngột: 5-10 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Hệ thống lạnh có vấn đề</div>
+    </div>
+    <div style="background: #7f1a1a20; padding: 10px; border-radius: 8px; border-left: 3px solid #7f1a1a;">
+      <div style="font-size: 12px; color: #7f1a1a; font-weight: bold;">⚠️ NGHIÊM TRỌNG</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: >15 lần</div>
+      <div style="font-size: 11px;">⚡ Đột ngột: >10 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Hỏng hệ thống, cần sửa ngay!</div>
+    </div>
+  </div>
+  
+</div>
+      
+<!-- Tab 2: Độ ẩm -->
+<div id="tab-hum" class="tab-content" style="display: none; padding: 20px; max-height: calc(90vh - 280px); overflow-y: auto;">
+  
+  <!-- Bảng tổng hợp độ ẩm các node -->
+  <div style="margin-bottom: 25px; overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0;">
+      <thead>
+        <tr style="background: #f1f5f9;">
+          <th style="padding: 10px; text-align: left;">Node</th>
+          <th style="padding: 10px; text-align: center;">💧 Ngoài ngưỡng (40-70%)</th>
+          <th style="padding: 10px; text-align: center;">💨 Đột ngột (≥10%/2p)</th>
+          <th style="padding: 10px; text-align: center;">📊 Mức độ</th>
+          <th style="padding: 10px; text-align: center;">⚠️ Cảnh báo & Khuyến nghị</th>
+         </tr>
+      </thead>
+      <tbody>
+        ${Object.keys(nodeStats).sort((a,b) => a-b).map(nodeId => {
+          const stats = nodeStats[nodeId];
+          const humOutCount = stats.humOutCount;
+          const humSuddenCount = stats.humSuddenCount;
+          
+          // Kết hợp cả 2 yếu tố để phân loại
+          let level = '';
+          let levelColor = '';
+          let levelBg = '';
+          let warningMessage = '';
+          let recommendation = '';
+          
+          // Mức NGHIÊM TRỌNG: >15 lần ngoài ngưỡng HOẶC >10 lần đột ngột
+          if (humOutCount > 15 || humSuddenCount > 10) {
+            level = 'NGHIÊM TRỌNG';
+            levelColor = '#7f1a1a';
+            levelBg = '#7f1a1a20';
+            warningMessage = '⚠️ HỆ THỐNG ĐIỀU HÒA ẨM HỎNG NGHIÊM TRỌNG';
+            recommendation = '📌 CẤP CỨU: Kiểm tra máy tạo ẩm, hút ẩm, cảm biến độ ẩm ngay!';
+          
+          // Mức CAO: 10-15 lần ngoài ngưỡng HOẶC 5-10 lần đột ngột
+          } else if ((humOutCount >= 10 && humOutCount <= 15) || (humSuddenCount >= 5 && humSuddenCount <= 10)) {
+            level = 'CAO';
+            levelColor = '#dc2626';
+            levelBg = '#dc262620';
+            warningMessage = '⚠️ MÁY TẠO ẨM/HÚT ẨM KHÔNG ỔN ĐỊNH';
+            recommendation = '🔧 Kiểm tra thiết bị, vệ sinh, kiểm tra cài đặt độ ẩm';
+          
+          // Mức TRUNG BÌNH: 5-9 lần ngoài ngưỡng HOẶC 2-4 lần đột ngột
+          } else if ((humOutCount >= 5 && humOutCount <= 9) || (humSuddenCount >= 2 && humSuddenCount <= 4)) {
+            level = 'TRUNG BÌNH';
+            levelColor = '#f59e0b';
+            levelBg = '#f59e0b20';
+            warningMessage = '⚠️ ĐỘ ẨM DAO ĐỘNG BẤT THƯỜNG';
+            recommendation = '📊 Theo dõi sát, kiểm tra cửa kho, hạn chế mở cửa';
+          
+          // Mức NHẸ: 2-4 lần ngoài ngưỡng HOẶC 1 lần đột ngột
+          } else if ((humOutCount >= 2 && humOutCount <= 4) || humSuddenCount === 1) {
+            level = 'NHẸ';
+            levelColor = '#eab308';
+            levelBg = '#eab30820';
+            warningMessage = '⚠️ CÓ THỂ DO MỞ CỬA HOẶC XẾP HÀNG';
+            recommendation = '👀 Theo dõi thêm, hạn chế mở cửa kho lạnh';
+          
+          // BÌNH THƯỜNG
+          } else {
+            level = 'BÌNH THƯỜNG';
+            levelColor = '#22c55e';
+            levelBg = '#22c55e20';
+            warningMessage = '✅ ĐỘ ẨM ỔN ĐỊNH';
+            recommendation = '👍 Tiếp tục duy trì';
+          }
+          
+          // Màu sắc cho số lần
+          let outCountColor = '#64748b';
+          if (humOutCount > 15) outCountColor = '#7f1a1a';
+          else if (humOutCount >= 10) outCountColor = '#dc2626';
+          else if (humOutCount >= 5) outCountColor = '#f59e0b';
+          else if (humOutCount >= 2) outCountColor = '#eab308';
+          
+          let suddenCountColor = '#64748b';
+          if (humSuddenCount > 10) suddenCountColor = '#7f1a1a';
+          else if (humSuddenCount >= 5) suddenCountColor = '#dc2626';
+          else if (humSuddenCount >= 2) suddenCountColor = '#f59e0b';
+          else if (humSuddenCount >= 1) suddenCountColor = '#eab308';
+          
+          return `
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 10px; font-weight: 500;">Node ${nodeId}</td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="color: ${outCountColor}; font-weight: bold; font-size: 16px;">${humOutCount}</span>
+                <div style="font-size: 10px; color: #94a3b8;">lần</div>
+              </td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="color: ${suddenCountColor}; font-weight: bold; font-size: 16px;">${humSuddenCount}</span>
+                <div style="font-size: 10px; color: #94a3b8;">lần</div>
+              </td>
+              <td style="padding: 10px; text-align: center;">
+                <span style="background: ${levelBg}; color: ${levelColor}; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                  ${level}
+                </span>
+              </td>
+              <td style="padding: 10px;">
+                <div style="font-weight: 600; color: ${levelColor};">${warningMessage}</div>
+                <div style="font-size: 11px; color: #475569; margin-top: 4px;">${recommendation}</div>
+              </td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Bảng phân loại mức độ -->
+  <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
+    <div style="background: #eab30820; padding: 10px; border-radius: 8px; border-left: 3px solid #eab308;">
+      <div style="font-size: 12px; color: #854d0e; font-weight: bold;">⚠️ NHẸ</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 2-4 lần</div>
+      <div style="font-size: 11px;">💨 Đột ngột: 1 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Có thể do mở cửa, xếp hàng</div>
+    </div>
+    <div style="background: #f59e0b20; padding: 10px; border-radius: 8px; border-left: 3px solid #f59e0b;">
+      <div style="font-size: 12px; color: #c2410c; font-weight: bold;">⚠️ TRUNG BÌNH</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 5-9 lần</div>
+      <div style="font-size: 11px;">💨 Đột ngột: 2-4 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Độ ẩm dao động bất thường</div>
+    </div>
+    <div style="background: #dc262620; padding: 10px; border-radius: 8px; border-left: 3px solid #dc2626;">
+      <div style="font-size: 12px; color: #991b1b; font-weight: bold;">⚠️ CAO</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: 10-15 lần</div>
+      <div style="font-size: 11px;">💨 Đột ngột: 5-10 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Máy tạo ẩm/hút ẩm có vấn đề</div>
+    </div>
+    <div style="background: #7f1a1a20; padding: 10px; border-radius: 8px; border-left: 3px solid #7f1a1a;">
+      <div style="font-size: 12px; color: #7f1a1a; font-weight: bold;">⚠️ NGHIÊM TRỌNG</div>
+      <div style="font-size: 11px;">📊 Ngoài ngưỡng: >15 lần</div>
+      <div style="font-size: 11px;">💨 Đột ngột: >10 lần</div>
+      <div style="font-size: 10px; margin-top: 5px;">👉 Hỏng hệ thống, cần sửa ngay!</div>
+    </div>
+  </div>
+</div>
+
+
+      
+      <!-- Tab 3: Mất kết nối -->
+      <div id="tab-connection" class="tab-content" style="display: none; padding: 20px; max-height: calc(90vh - 280px); overflow-y: auto;">
+        <!-- Bảng tổng hợp mất kết nối -->
+        <div style="margin-bottom: 25px; overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0;">
+            <thead>
+              <tr style="background: #f1f5f9;">
+                <th style="padding: 10px; text-align: left;">Node</th>
+                <th style="padding: 10px; text-align: center;">📡 Số lần mất kết nối</th>
+                <th style="padding: 10px; text-align: center;">⚠️ Cảnh báo</th>
+               </tr>
+            </thead>
+            <tbody>
+              ${Object.keys(nodeStats).sort((a,b) => a-b).map(nodeId => {
+                const stats = nodeStats[nodeId];
+                const hasIssue = stats.disconnectionCount > 0;
+                return `
+                  <tr style="border-bottom: 1px solid #e2e8f0;">
+                    <td style="padding: 10px; font-weight: 500;">Node ${nodeId}</td>
+                    <td style="padding: 10px; text-align: center; color: ${hasIssue ? '#f59e0b' : '#64748b'};">${stats.disconnectionCount}</td>
+                    <td style="padding: 10px; text-align: center;">
+                      ${hasIssue ? '<span style="background: #f59e0b; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;">⚠️ MẤT KẾT NỐI THƯỜNG XUYÊN</span>' : '<span style="color: #22c55e;">✅ Ổn định</span>'}
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+           </table>
+        </div>
+      </div>
+      
+<!-- Tab 4: Pin -->
+<div id="tab-battery" class="tab-content" style="display: none; padding: 20px; max-height: calc(90vh - 280px); overflow-y: auto;">
+  <div style="margin-bottom: 25px; overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0;">
+      <thead>
+        <tr style="background: #f1f5f9;">
+          <th style="padding: 10px; text-align: left;">Node</th>
+          <th style="padding: 10px; text-align: center;">🔋 Đầu kỳ → Cuối kỳ</th>
+          <th style="padding: 10px; text-align: center;">📊 Tổng thay đổi</th>
+          <th style="padding: 10px; text-align: center;">⏱️ Thời gian</th>
+          <th style="padding: 10px; text-align: center;">⚠️ Cảnh báo</th>
+         </tr>
+      </thead>
+      <tbody>
+        ${Object.keys(nodeStats).sort((a,b) => a-b).map(nodeId => {
+          const stats = nodeStats[nodeId];
+          const totalChange = stats.batteryTotalChange ? parseFloat(stats.batteryTotalChange) : null;
+          const absChange = stats.batteryAbsChange ? parseFloat(stats.batteryAbsChange) : null;
+          const fromVbat = stats.batteryFrom !== undefined ? stats.batteryFrom : 'N/A';
+          const toVbat = stats.batteryTo !== undefined ? stats.batteryTo : 'N/A';
+          const hours = stats.batteryHours || '0';
+          const days = stats.batteryDays || '0';
+          const anomaly = stats.batteryAnomaly;
+          
+          let changeColor = '#64748b';
+          let changeIcon = '●';
+          let changeText = '';
+          
+          if (totalChange !== null) {
+            if (totalChange > 0) {
+              changeColor = '#22c55e';
+              changeIcon = '▲';
+              changeText = `${changeIcon} ${Math.abs(totalChange).toFixed(1)}% (tăng)`;
+            } else if (totalChange < 0) {
+              changeColor = '#ef4444';
+              changeIcon = '▼';
+              changeText = `${changeIcon} ${Math.abs(totalChange).toFixed(1)}% (giảm)`;
+            } else {
+              changeText = `● 0% (không đổi)`;
+            }
+          } else {
+            changeText = `<span style="color: #94a3b8;">${stats.batteryNote || '---'}</span>`;
+          }
+          
+          // Hiển thị cảnh báo theo mức độ
+          let warningHtml = '';
+          if (anomaly) {
+            const bgColor = anomaly.level === 'critical' ? '#7f1a1a' : 
+                           (anomaly.level === 'high' ? '#dc2626' : 
+                           (anomaly.level === 'medium' ? '#f59e0b' : '#eab308'));
+            warningHtml = `
+              <span style="background: ${bgColor}; color: white; padding: 4px 10px; border-radius: 12px; font-size: 11px; display: inline-block;">
+                ${anomaly.message}
+              </span>
+            `;
+          } else if (totalChange !== null) {
+            warningHtml = '<span style="color: #22c55e;">✅ Bình thường</span>';
+          } else {
+            warningHtml = `<span style="color: #94a3b8; font-size: 11px;">${stats.batteryNote || '---'}</span>`;
+          }
+          
+          return `
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 10px; font-weight: 500;">Node ${nodeId}</td>
+              <td style="padding: 10px; text-align: center; font-size: 12px;">
+                ${fromVbat}% → ${toVbat}%
+              </td>
+              <td style="padding: 10px; text-align: center; color: ${changeColor}; font-weight: 500;">
+                ${changeText}
+              </td>
+              <td style="padding: 10px; text-align: center; font-size: 11px;">
+                ${parseFloat(days).toFixed(1)} ngày (${parseFloat(hours).toFixed(1)} giờ)
+              </td>
+              <td style="padding: 10px; text-align: center;">
+                ${warningHtml}
+              </td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Bảng phân loại mức cảnh báo -->
+  <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
+    <div style="background: #eab30820; padding: 8px; border-radius: 8px; text-align: center; border-left: 3px solid #eab308;">
+      <div style="font-size: 11px; color: #854d0e;">⚠️ NHẸ</div>
+      <div style="font-size: 13px; font-weight: bold;">2% - 5%</div>
+      <div style="font-size: 10px;">Thay đổi nhỏ</div>
+    </div>
+    <div style="background: #f59e0b20; padding: 8px; border-radius: 8px; text-align: center; border-left: 3px solid #f59e0b;">
+      <div style="font-size: 11px; color: #c2410c;">⚠️ TRUNG BÌNH</div>
+      <div style="font-size: 13px; font-weight: bold;">5% - 10%</div>
+      <div style="font-size: 10px;">Cần theo dõi</div>
+    </div>
+    <div style="background: #dc262620; padding: 8px; border-radius: 8px; text-align: center; border-left: 3px solid #dc2626;">
+      <div style="font-size: 11px; color: #991b1b;">⚠️ CAO</div>
+      <div style="font-size: 13px; font-weight: bold;">10% - 15%</div>
+      <div style="font-size: 10px;">Kiểm tra ngay</div>
+    </div>
+    <div style="background: #7f1a1a20; padding: 8px; border-radius: 8px; text-align: center; border-left: 3px solid #7f1a1a;">
+      <div style="font-size: 11px; color: #7f1a1a;">⚠️ NGHIÊM TRỌNG</div>
+      <div style="font-size: 13px; font-weight: bold;">> 15%</div>
+      <div style="font-size: 10px;">Thay pin ngay</div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  
+  // Tab switching logic
+  const tabs = modal.querySelectorAll('.tab-btn');
+  const contents = modal.querySelectorAll('.tab-content');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const tabId = tab.getAttribute('data-tab');
+      
+      tabs.forEach(t => {
+        t.classList.remove('active');
+        t.style.borderBottom = 'none';
+        t.style.color = '#64748b';
+      });
+      tab.classList.add('active');
+      tab.style.borderBottom = '2px solid #f59e0b';
+      tab.style.color = '#f59e0b';
+      
+      contents.forEach(content => {
+        content.style.display = 'none';
+      });
+      const activeContent = modal.querySelector(`#tab-${tabId}`);
+      if (activeContent) activeContent.style.display = 'block';
+    });
+  });
+  
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) modal.remove();
+  });
+}
+
+// Phân tích so sánh các ngày trong 7 ngày
+function showDayComparisonAnalysis(storeId, storeName) {
+  const nodesData = historicalData[storeId];
+  if (!nodesData || Object.keys(nodesData).length === 0) {
+    alert('Không có dữ liệu để phân tích');
+    return;
+  }
+  
+  // Lấy date range
+  let dateRangeText = '';
+  if (selectedDate === 'today') {
+    alert('Phân tích so sánh ngày cần ít nhất 2 ngày dữ liệu');
+    return;
+  } else if (selectedDate === 'yesterday') {
+    alert('Phân tích so sánh ngày cần ít nhất 2 ngày dữ liệu');
+    return;
+  } else if (selectedDate === '2days') {
+    dateRangeText = '2 ngày';
+  } else if (selectedDate === '3days') {
+    dateRangeText = '3 ngày';
+  } else if (selectedDate === 'custom') {
+    dateRangeText = `${formatDateVN(customStartDate)} → ${formatDateVN(customEndDate)}`;
+  }
+  
+  const nodeIds = Object.keys(nodesData).sort((a, b) => a - b);
+  
+  // Gom dữ liệu theo ngày
+  let dailyStats = {};
+  
+  nodeIds.forEach(nodeId => {
+    const readings = nodesData[nodeId];
+    if (!readings || readings.length === 0) return;
+    
+    const sortedReadings = [...readings].sort((a, b) => 
+      new Date(a.timestamp) - new Date(b.timestamp)
+    );
+    
+    // Gom theo ngày
+    sortedReadings.forEach(reading => {
+      const date = formatDateVN(reading.timestamp);
+      const temp = reading.temperature / 10;
+      const hum = reading.humidity / 10;
+      const vbat = reading.vbat_percent;
+      
+      if (!dailyStats[date]) {
+        dailyStats[date] = {
+          date: date,
+          temps: [],
+          hums: [],
+          vbatReadings: [],
+          disconnections: [],
+          nodeData: {}
+        };
+      }
+      
+      dailyStats[date].temps.push(temp);
+      dailyStats[date].hums.push(hum);
+      if (vbat !== null && vbat !== undefined) {
+        dailyStats[date].vbatReadings.push(vbat);
+      }
+      
+      // Lưu theo node để tính mất kết nối
+      if (!dailyStats[date].nodeData[nodeId]) {
+        dailyStats[date].nodeData[nodeId] = {
+          temps: [],
+          hums: [],
+          timestamps: []
+        };
+      }
+      dailyStats[date].nodeData[nodeId].temps.push(temp);
+      dailyStats[date].nodeData[nodeId].hums.push(hum);
+      dailyStats[date].nodeData[nodeId].timestamps.push(new Date(reading.timestamp));
+    });
+  });
+  
+  // Tính toán chỉ số cho từng ngày
+  let dailySummary = [];
+  let maxTempDay = { date: '', value: 0 };
+  let minTempDay = { date: '', value: 100 };
+  let maxHumDay = { date: '', value: 0 };
+  let minHumDay = { date: '', value: 100 };
+  let maxBatteryDropDay = { date: '', value: 0, drop: 0 };
+  let maxDisconnectDay = { date: '', value: 0, count: 0 };
+  
+  Object.keys(dailyStats).sort().forEach(date => {
+    const stats = dailyStats[date];
+    
+    // Nhiệt độ
+    const avgTemp = stats.temps.reduce((a,b) => a+b, 0) / stats.temps.length;
+    const maxTemp = Math.max(...stats.temps);
+    const minTemp = Math.min(...stats.temps);
+    const tempOutOfRange = stats.temps.filter(t => t > 8 || t < 2).length;
+    const tempSuddenCount = countTempSuddenChanges(stats.nodeData);
+    
+    // Độ ẩm
+    const avgHum = stats.hums.reduce((a,b) => a+b, 0) / stats.hums.length;
+    const maxHum = Math.max(...stats.hums);
+    const minHum = Math.min(...stats.hums);
+    const humOutOfRange = stats.hums.filter(h => h > 70 || h < 40).length;
+    const humSuddenCount = countHumSuddenChanges(stats.nodeData);
+    
+    // Pin - tính độ giảm pin trong ngày
+    let batteryDrop = 0;
+    let batteryStart = null;
+    let batteryEnd = null;
+    if (stats.vbatReadings.length >= 2) {
+      batteryStart = stats.vbatReadings[0];
+      batteryEnd = stats.vbatReadings[stats.vbatReadings.length - 1];
+      batteryDrop = batteryStart - batteryEnd;
+    }
+    
+    // Mất kết nối
+    let disconnectCount = 0;
+    Object.keys(stats.nodeData).forEach(nodeId => {
+      const timestamps = stats.nodeData[nodeId].timestamps;
+      const disconnects = analyzeDisconnectionsForDay(timestamps);
+      disconnectCount += disconnects.length;
+    });
+    
+    const score = calculateDayScore({
+      tempOutOfRange,
+      tempSuddenCount,
+      humOutOfRange,
+      humSuddenCount,
+      batteryDrop,
+      disconnectCount
+    });
+    
+    dailySummary.push({
+      date: date,
+      avgTemp: avgTemp,
+      maxTemp: maxTemp,
+      minTemp: minTemp,
+      tempOutOfRange: tempOutOfRange,
+      tempSuddenCount: tempSuddenCount,
+      avgHum: avgHum,
+      maxHum: maxHum,
+      minHum: minHum,
+      humOutOfRange: humOutOfRange,
+      humSuddenCount: humSuddenCount,
+      batteryDrop: batteryDrop > 0 ? batteryDrop : 0,
+      batteryStart: batteryStart,
+      batteryEnd: batteryEnd,
+      disconnectCount: disconnectCount,
+      score: score,
+      readings: stats.temps.length
+    });
+    
+    // Tìm ngày có vấn đề nhất
+    if (maxTemp > maxTempDay.value) {
+      maxTempDay = { date: date, value: maxTemp };
+    }
+    if (minTemp < minTempDay.value) {
+      minTempDay = { date: date, value: minTemp };
+    }
+    if (maxHum > maxHumDay.value) {
+      maxHumDay = { date: date, value: maxHum };
+    }
+    if (minHum < minHumDay.value) {
+      minHumDay = { date: date, value: minHum };
+    }
+    if (batteryDrop > maxBatteryDropDay.drop) {
+      maxBatteryDropDay = { date: date, drop: batteryDrop, value: batteryStart };
+    }
+    if (disconnectCount > maxDisconnectDay.count) {
+      maxDisconnectDay = { date: date, count: disconnectCount, value: disconnectCount };
+    }
+  });
+  
+  // Sắp xếp theo điểm số để tìm ngày tệ nhất
+  const sortedByScore = [...dailySummary].sort((a, b) => b.score - a.score);
+  const worstDay = sortedByScore[0];
+  
+  // Tạo modal
+  const modal = document.createElement('div');
+  modal.className = 'modal-overlay';
+  modal.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+  `;
+  
+  modal.innerHTML = `
+    <div style="background: white; width: 95%; max-width: 1400px; max-height: 90vh; border-radius: 20px; overflow: hidden;">
+      <div style="background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%); color: white; padding: 20px 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h2 style="margin: 0;">📊 PHÂN TÍCH SO SÁNH NGÀY</h2>
+            <p style="margin: 5px 0 0; opacity: 0.9;">${storeName}</p>
+            <p style="margin: 5px 0 0; opacity: 0.8; font-size: 12px;">📅 ${dateRangeText}</p>
+          </div>
+          <button onclick="this.closest('.modal-overlay').remove()" style="background: rgba(255,255,255,0.2); border: none; color: white; font-size: 24px; cursor: pointer; width: 36px; height: 36px; border-radius: 50%;">✕</button>
+        </div>
+      </div>
+      
+      <div style="padding: 25px; max-height: calc(90vh - 100px); overflow-y: auto;">
+        <!-- Top Issues Cards -->
+        <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 25px;">
+          <div style="background: linear-gradient(135deg, #ef4444, #dc2626); color: white; padding: 12px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 11px;">🔥 Nhiệt độ cao nhất</div>
+            <div style="font-size: 20px; font-weight: bold;">${maxTempDay.value.toFixed(1)}°C</div>
+            <div style="font-size: 10px;">${maxTempDay.date}</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 12px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 11px;">❄️ Nhiệt độ thấp nhất</div>
+            <div style="font-size: 20px; font-weight: bold;">${minTempDay.value.toFixed(1)}°C</div>
+            <div style="font-size: 10px;">${minTempDay.date}</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 12px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 11px;">💧 Độ ẩm cao nhất</div>
+            <div style="font-size: 20px; font-weight: bold;">${maxHumDay.value.toFixed(1)}%</div>
+            <div style="font-size: 10px;">${maxHumDay.date}</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 12px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 11px;">🔋 Pin giảm nhiều nhất</div>
+            <div style="font-size: 20px; font-weight: bold;">${maxBatteryDropDay.drop.toFixed(1)}%</div>
+            <div style="font-size: 10px;">${maxBatteryDropDay.date}</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 12px; border-radius: 12px; text-align: center;">
+            <div style="font-size: 11px;">📡 Mất kết nối nhiều nhất</div>
+            <div style="font-size: 20px; font-weight: bold;">${maxDisconnectDay.count} lần</div>
+            <div style="font-size: 10px;">${maxDisconnectDay.date}</div>
+          </div>
+        </div>
+        
+        <!-- Ngày tệ nhất -->
+        <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); padding: 20px; border-radius: 16px; margin-bottom: 25px;">
+          <div style="display: flex; align-items: center; gap: 15px;">
+            <span style="font-size: 48px;">⚠️</span>
+            <div style="flex: 1;">
+              <h3 style="margin: 0; color: #92400e;">NGÀY CÓ VẤN ĐỀ NHIỀU NHẤT</h3>
+              <p style="margin: 5px 0 0; font-size: 20px; font-weight: bold; color: #b45309;">📅 ${worstDay.date}</p>
+              <p style="margin: 5px 0 0; color: #78350f;">Điểm bất thường: ${worstDay.score} điểm</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 15px;">
+            <div><span style="font-size: 11px;">🌡️ Nhiệt độ ngoài ngưỡng</span><br><strong>${worstDay.tempOutOfRange} lần</strong></div>
+            <div><span style="font-size: 11px;">⚡ Nhiệt độ đột ngột</span><br><strong>${worstDay.tempSuddenCount} lần</strong></div>
+            <div><span style="font-size: 11px;">💧 Độ ẩm ngoài ngưỡng</span><br><strong>${worstDay.humOutOfRange} lần</strong></div>
+            <div><span style="font-size: 11px;">💨 Độ ẩm đột ngột</span><br><strong>${worstDay.humSuddenCount} lần</strong></div>
+            <div><span style="font-size: 11px;">🔋 Pin giảm</span><br><strong>${worstDay.batteryDrop.toFixed(1)}%</strong></div>
+            <div><span style="font-size: 11px;">📡 Mất kết nối</span><br><strong>${worstDay.disconnectCount} lần</strong></div>
+          </div>
+        </div>
+        
+        <!-- Bảng so sánh chi tiết -->
+        <h3 style="margin: 0 0 15px 0;">📋 SO SÁNH CHI TIẾT CÁC NGÀY</h3>
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0; font-size: 13px;">
+            <thead>
+              <tr style="background: #f1f5f9;">
+                <th style="padding: 10px; text-align: left;">Ngày</th>
+                <th style="padding: 10px; text-align: center;">🌡️ Nhiệt độ TB</th>
+                <th style="padding: 10px; text-align: center;">📈 Max/Min</th>
+                <th style="padding: 10px; text-align: center;">⚠️ Ngoài ngưỡng</th>
+                <th style="padding: 10px; text-align: center;">💧 Độ ẩm TB</th>
+                <th style="padding: 10px; text-align: center;">⚠️ Ngoài ngưỡng</th>
+                <th style="padding: 10px; text-align: center;">🔋 Pin giảm</th>
+                <th style="padding: 10px; text-align: center;">📡 Mất KN</th>
+                <th style="padding: 10px; text-align: center;">🏆 Điểm</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${dailySummary.map(day => {
+                const isWorst = day.date === worstDay.date;
+                const tempStatus = day.tempOutOfRange >= 10 ? '🔴' : (day.tempOutOfRange >= 5 ? '🟡' : '🟢');
+                const humStatus = day.humOutOfRange >= 10 ? '🔴' : (day.humOutOfRange >= 5 ? '🟡' : '🟢');
+                const batteryStatus = day.batteryDrop >= 5 ? '🔴' : (day.batteryDrop >= 3 ? '🟡' : '🟢');
+                const disconnectStatus = day.disconnectCount >= 5 ? '🔴' : (day.disconnectCount >= 2 ? '🟡' : '🟢');
+                
+                return `
+                  <tr style="border-bottom: 1px solid #e2e8f0; background: ${isWorst ? '#fef3c7' : 'white'};">
+                    <td style="padding: 10px; font-weight: ${isWorst ? 'bold' : 'normal'};">${day.date}</td>
+                    <td style="padding: 10px; text-align: center;">${day.avgTemp.toFixed(1)}°C</td>
+                    <td style="padding: 10px; text-align: center; font-size: 11px;">${day.maxTemp.toFixed(1)}° / ${day.minTemp.toFixed(1)}°</td>
+                    <td style="padding: 10px; text-align: center;">${tempStatus} ${day.tempOutOfRange}</td>
+                    <td style="padding: 10px; text-align: center;">${day.avgHum.toFixed(1)}%</td>
+                    <td style="padding: 10px; text-align: center;">${humStatus} ${day.humOutOfRange}</td>
+                    <td style="padding: 10px; text-align: center;">${batteryStatus} ${day.batteryDrop.toFixed(1)}%</td>
+                    <td style="padding: 10px; text-align: center;">${disconnectStatus} ${day.disconnectCount}</td>
+                    <td style="padding: 10px; text-align: center; font-weight: bold; color: ${day.score >= 50 ? '#ef4444' : (day.score >= 30 ? '#f59e0b' : '#22c55e')};">${day.score}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+        
+        <!-- Bảng xếp hạng vấn đề -->
+        <div style="margin-top: 25px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
+          <div style="background: #f8fafc; border-radius: 12px; padding: 15px;">
+            <h4 style="margin: 0 0 10px 0;">🔥 Nhiệt độ</h4>
+            <div><strong>Ngày cao nhất:</strong> ${maxTempDay.date} (${maxTempDay.value.toFixed(1)}°C)</div>
+            <div><strong>Ngày thấp nhất:</strong> ${minTempDay.date} (${minTempDay.value.toFixed(1)}°C)</div>
+            <div><strong>Chênh lệch:</strong> ${(maxTempDay.value - minTempDay.value).toFixed(1)}°C</div>
+          </div>
+          <div style="background: #f8fafc; border-radius: 12px; padding: 15px;">
+            <h4 style="margin: 0 0 10px 0;">💧 Độ ẩm</h4>
+            <div><strong>Ngày cao nhất:</strong> ${maxHumDay.date} (${maxHumDay.value.toFixed(1)}%)</div>
+            <div><strong>Ngày thấp nhất:</strong> ${minHumDay.date} (${minHumDay.value.toFixed(1)}%)</div>
+            <div><strong>Chênh lệch:</strong> ${(maxHumDay.value - minHumDay.value).toFixed(1)}%</div>
+          </div>
+          <div style="background: #f8fafc; border-radius: 12px; padding: 15px;">
+            <h4 style="margin: 0 0 10px 0;">🔋 Pin</h4>
+            <div><strong>Ngày giảm nhiều:</strong> ${maxBatteryDropDay.date} (${maxBatteryDropDay.drop.toFixed(1)}%)</div>
+            <div><strong>Mất kết nối nhiều:</strong> ${maxDisconnectDay.date} (${maxDisconnectDay.count} lần)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) modal.remove();
+  });
+}
+
+// Hàm hỗ trợ
+function countTempSuddenChanges(nodeData) {
+  let count = 0;
+  Object.keys(nodeData).forEach(nodeId => {
+    const temps = nodeData[nodeId].temps;
+    const timestamps = nodeData[nodeId].timestamps;
+    for (let i = 1; i < temps.length; i++) {
+      const change = Math.abs(temps[i] - temps[i-1]);
+      const timeDiff = (timestamps[i] - timestamps[i-1]) / (1000 * 60);
+      if (change >= 2 && timeDiff <= 10) count++;
+    }
+  });
+  return count;
+}
+
+function countHumSuddenChanges(nodeData) {
+  let count = 0;
+  Object.keys(nodeData).forEach(nodeId => {
+    const hums = nodeData[nodeId].hums;
+    const timestamps = nodeData[nodeId].timestamps;
+    for (let i = 1; i < hums.length; i++) {
+      const change = Math.abs(hums[i] - hums[i-1]);
+      const timeDiff = (timestamps[i] - timestamps[i-1]) / (1000 * 60);
+      if (change >= 10 && timeDiff <= 2) count++;
+    }
+  });
+  return count;
+}
+
+function analyzeDisconnectionsForDay(timestamps) {
+  if (timestamps.length < 2) return [];
+  const disconnections = [];
+  for (let i = 0; i < timestamps.length - 1; i++) {
+    const gap = (timestamps[i+1] - timestamps[i]) / (1000 * 60);
+    if (gap > 20) {
+      disconnections.push({ gap });
+    }
+  }
+  return disconnections;
+}
+
+function calculateDayScore(metrics) {
+  let score = 0;
+  score += Math.min(metrics.tempOutOfRange, 30) * 2;
+  score += Math.min(metrics.tempSuddenCount, 20) * 1.5;
+  score += Math.min(metrics.humOutOfRange, 30) * 2;
+  score += Math.min(metrics.humSuddenCount, 20) * 1.5;
+  score += Math.min(metrics.batteryDrop * 2, 30);
+  score += Math.min(metrics.disconnectCount * 3, 30);
+  return Math.min(Math.round(score), 100);
+}
+
+// Update testAction to call showStoreAnalysis
+function testAction(storeId, actionType) {
+  const dropdown = document.getElementById(`dropdown-${storeId}`);
+  if (dropdown) dropdown.classList.remove('show');
+  
+  const storeName = stores[storeId];
+
+  switch(actionType) {
+    case 'analysis':
+      showStoreAnalysis(storeId, storeName);
+      break;
+    case 'abnormal':
+      showAbnormalDetection(storeId, storeName);
+      break;
+    case 'trend':
+      showDayComparisonAnalysis(storeId, storeName);
+      break;
+  }
+}
