@@ -97,7 +97,7 @@ window.showConnectionAnalysis = function(nodeId) {
     <div class="modal-content">
       <div class="modal-header">
         <div style="display: flex; align-items: center; gap: 15px;">
-          <span style="font-size: 32px;">📡</span>
+          <span style="font-size: 32px;">📡 </span>
           <div>
             <h2 style="margin: 0; font-size: 22px;">PHÂN TÍCH KẾT NỐI - NODE ${nodeId}</h2>
           </div>
@@ -371,6 +371,8 @@ function closeBatteryModal() {
   document.getElementById('battery-modal').style.display = 'none';
 }
 
+// Định nghĩa hàm toggleNodeMenu
+// Định nghĩa hàm toggleNodeMenu - FIXED with unique classes
 window.toggleNodeMenu = function(nodeId) {
   console.log('✅ Click menu node:', nodeId);
   
@@ -385,10 +387,7 @@ window.toggleNodeMenu = function(nodeId) {
   }
   
   // Close all node dropdowns
-  document.querySelectorAll('.node-dropdown').forEach(el => {
-    if (el.cleanup) el.cleanup();
-    el.remove();
-  });
+  document.querySelectorAll('.node-dropdown').forEach(el => el.remove());
   
   // Also close store dropdowns to avoid conflict
   document.querySelectorAll('.store-dropdown.show').forEach(dropdown => {
@@ -411,14 +410,25 @@ window.toggleNodeMenu = function(nodeId) {
   }
   
   const dropdown = document.createElement('div');
-  dropdown.className = 'node-dropdown'; // Use CSS class only, no inline styles
+  dropdown.className = 'node-dropdown';
   
   // Get button position
   const rect = menuBtn.getBoundingClientRect();
   
-  // Calculate position - let CSS handle dimensions
+  // Calculate position - FIXED for mobile
   let top = rect.bottom + 5;
-  let left = rect.right - 250; // Approximate width, will be adjusted
+  let left = rect.left - 230;
+  
+  // Apply base styles
+  dropdown.style.position = 'fixed';
+  dropdown.style.background = 'white';
+  dropdown.style.borderRadius = '12px';
+  dropdown.style.boxShadow = '0 10px 25px rgba(0,0,0,0.2)';
+  dropdown.style.minWidth = '250px';
+  dropdown.style.zIndex = '999999';
+  dropdown.style.border = '1px solid #e2e8f0';
+  dropdown.style.overflow = 'hidden';
+  dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
   
   dropdown.innerHTML = `
     <div class="node-dropdown-item" onclick="window.showConnectionAnalysis(${nodeId}); this.closest('.node-dropdown').remove(); event.stopPropagation();">
@@ -434,35 +444,44 @@ window.toggleNodeMenu = function(nodeId) {
   
   document.body.appendChild(dropdown);
   
-  // Get actual dimensions after adding to DOM
+  // Get dropdown dimensions after adding to DOM
   const dropdownRect = dropdown.getBoundingClientRect();
   const dropdownWidth = dropdownRect.width;
   const dropdownHeight = dropdownRect.height;
   
-  // Adjust position based on actual dimensions
-  left = rect.right - dropdownWidth;
-  
-  // Boundary checking
+  // MOBILE FIX: Adjust position for mobile viewport
+  // Check right edge - if dropdown goes off screen to the right
   if (left + dropdownWidth > window.innerWidth) {
     left = window.innerWidth - dropdownWidth - 16;
   }
+  
+  // Check left edge - if dropdown goes off screen to the left
   if (left < 16) {
     left = 16;
   }
-  
+
+	
+  // Check bottom edge - if not enough space below, show above the button
   if (top + dropdownHeight > window.innerHeight) {
     top = rect.top - dropdownHeight - 5;
   }
+  
+  // Check top edge - if not enough space above either
   if (top < 16) {
     top = 16;
   }
   
-  // Only set position styles, let CSS handle everything else
-  dropdown.style.position = 'fixed';
-  dropdown.style.top = `${top}px`;
+  // Apply final position
+  dropdown.style.top = `${top}px`;;
   dropdown.style.left = `${left}px`;
   dropdown.style.right = 'auto';
   dropdown.style.bottom = 'auto';
+  
+  // For mobile, ensure dropdown doesn't exceed viewport width
+  if (window.innerWidth <= 768) {
+    dropdown.style.maxWidth = `${window.innerWidth - 32}px`;
+    dropdown.style.minWidth = '200px';
+  }
   
   // Prevent body scrolling on mobile
   const originalOverflow = document.body.style.overflow;
@@ -480,11 +499,11 @@ window.toggleNodeMenu = function(nodeId) {
     document.body.style.overflow = originalOverflow;
     document.removeEventListener('click', handleClickOutside);
     document.removeEventListener('keydown', handleEscapeKey);
-    window.removeEventListener('scroll', handleScroll, true);
-    window.removeEventListener('resize', handleResize);
+    document.removeEventListener('scroll', handleScroll, true);
   }
   
   function handleClickOutside(e) {
+    // Don't close if clicking on the dropdown or the menu button
     if (!dropdown.contains(e.target) && !menuBtn.contains(e.target)) {
       closeDropdown();
     }
@@ -497,29 +516,36 @@ window.toggleNodeMenu = function(nodeId) {
   }
   
   function handleScroll(e) {
+    // Close dropdown on scroll (common on mobile)
     closeDropdown();
   }
   
-  function handleResize() {
-    closeDropdown();
-  }
-  
+  // Add event listeners with delay to avoid immediate closing
   setTimeout(() => {
     document.addEventListener('click', handleClickOutside);
     document.addEventListener('keydown', handleEscapeKey);
+    // Close on scroll for mobile
     if (window.innerWidth <= 768) {
       window.addEventListener('scroll', handleScroll, true);
     }
-    window.addEventListener('resize', handleResize);
   }, 10);
   
+  // Also close on resize (viewport change)
+  function handleResize() {
+    closeDropdown();
+  }
+  window.addEventListener('resize', handleResize);
+  
+  // Store cleanup function on dropdown for garbage collection
   dropdown.cleanup = function() {
     window.removeEventListener('resize', handleResize);
     if (window.innerWidth <= 768) {
       window.removeEventListener('scroll', handleScroll, true);
     }
   };
+
 };
+
 
 function formatValue(value) {
   if (value === null || value === undefined) return '0.0';

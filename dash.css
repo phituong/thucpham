@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 
-/* Header */
+/* Header - Responsive */
 .header {
   background: white;
   padding: 15px 25px;
@@ -20,6 +20,8 @@ body {
   align-items: center;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .header h2 {
@@ -34,6 +36,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .user-avatar {
@@ -84,7 +87,77 @@ body {
   border-color: #3b82f6;
 }
 
-/* Date Filter */
+/* Store Bar - Horizontal scroll for mobile */
+.store-bar {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: visible;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+  position: relative;
+  z-index: 10;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.store-item {
+  flex-shrink: 0;
+  background: #f8fafc;
+  border-radius: 12px;
+  position: relative;
+  border: 1px solid #e2e8f0;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.store-item.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  border-color: #3b82f6;
+}
+
+.store-item.active .store-main {
+  color: white;
+}
+
+.store-main {
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+.store-main::before {
+  content: "🏬";
+  font-size: 18px;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  z-index: 100;
+}
+
+/* Date Filter - Responsive wrap */
 .date-filter {
   background: white;
   padding: 15px;
@@ -102,6 +175,7 @@ body {
   background: #f1f5f9;
   padding: 4px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .date-tab {
@@ -130,6 +204,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-left: auto;
+  flex-wrap: wrap;
 }
 
 .date-input {
@@ -188,7 +263,7 @@ body {
   100% { opacity: 1; }
 }
 
-/* Nodes Grid */
+/* Nodes Grid - Responsive grid */
 .nodes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -219,6 +294,8 @@ body {
   margin-bottom: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .node-title {
@@ -337,7 +414,7 @@ body {
   border: 1px solid #e2e8f0;
 }
 
-/* Stats Grid */
+/* Stats Grid - Responsive */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -364,19 +441,22 @@ body {
   color: #1e293b;
 }
 
-/* Table */
+/* Table Container - Horizontal scroll on mobile */
 .table-container {
   max-height: 400px;
+  overflow-x: auto;
   overflow-y: auto;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   background: white;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
+  min-width: 600px;
 }
 
 th {
@@ -407,7 +487,7 @@ tr:hover {
   font-weight: 500;
 }
 
-/* Modal */
+/* Modal - Responsive */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -420,6 +500,7 @@ tr:hover {
   align-items: center;
   z-index: 10000;
   animation: fadeIn 0.2s ease;
+  padding: 16px;
 }
 
 @keyframes fadeIn {
@@ -484,6 +565,7 @@ tr:hover {
 .day-indicator {
   display: flex;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 .day-dot {
@@ -518,85 +600,7 @@ tr:hover {
   border-radius: 12px;
 }
 
-
-
-
-
-/* Store Bar */
-.store-bar {
-  background: white;
-  padding: 1rem;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  overflow-y: visible;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  border: 1px solid #e2e8f0;
-  position: relative;
-  z-index: 10;
-}
-
-.store-item {
-  flex-shrink: 0;
-  background: #f8fafc;
-  border-radius: 12px;
-  position: relative;
-  border: 1px solid #e2e8f0;
-  min-width: 150px;
-  cursor: pointer;
-}
-
-.store-item.active {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  border-color: #3b82f6;
-}
-
-.store-item.active .store-main {
-  color: white;
-}
-
-.store-main {
-  padding: 12px 16px;
-  font-weight: 600;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: #1e293b;
-  white-space: nowrap;
-}
-
-.store-main::before {
-  content: "🏬";
-  font-size: 18px;
-}
-
-/* Menu Button */
-.menu-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 28px;
-  height: 28px;
-  background: #e2e8f0;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 16px;
-  border: none;
-  z-index: 100;
-}
-
-.store-item.active .menu-btn {
-  background: rgba(255,255,255,0.2);
-  color: white;
-}
-
-/* Dropdown - Instant display */
+/* Store Dropdown */
 .store-dropdown {
   display: none;
   position: fixed;
@@ -613,7 +617,7 @@ tr:hover {
 }
 
 .dropdown-item {
-  padding: 10px 15px;
+  padding: 12px 15px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -638,8 +642,7 @@ tr:hover {
   width: 24px;
 }
 
-
-/* Node Dropdown - Unique styles (not conflicting with store dropdown) */
+/* Node Dropdown */
 .node-dropdown {
   position: fixed;
   background: white;
@@ -673,4 +676,438 @@ tr:hover {
   padding-left: 20px;
   color: #3b82f6;
 }
+
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+/* Tablet View (768px and below) */
+@media (max-width: 768px) {
+  body {
+    padding: 16px;
+  }
+  
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .header h2 {
+    font-size: 1.3rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .stat-value {
+    font-size: 28px;
+  }
+  
+  .nodes-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  
+  .node-card {
+    padding: 16px;
+  }
+  
+  .reading-value {
+    font-size: 20px;
+  }
+  
+  .chart-container {
+    height: 160px;
+  }
+  
+  .date-filter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .date-picker {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    width: 95%;
+    max-width: 95%;
+  }
+  
+  .modal-header {
+    padding: 16px 20px;
+  }
+  
+  .modal-close {
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Dropdown fixes for tablet */
+  .store-dropdown {
+    max-width: 280px;
+  }
+  
+  .node-dropdown {
+    max-width: 260px;
+  }
+  
+  .menu-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  body {
+    padding: 12px;
+  }
+  
+  .header {
+    padding: 12px 16px;
+  }
+  
+  .header h2 {
+    font-size: 1.1rem;
+  }
+  
+  .user-info {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+  
+  .logout-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  /* Store bar - more compact */
+  .store-bar {
+    padding: 10px;
+    gap: 8px;
+  }
+  
+  .store-item {
+    min-width: 120px;
+  }
+  
+  .store-main {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  
+  .store-main::before {
+    font-size: 14px;
+  }
+  
+  .menu-btn {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    top: 6px;
+    right: 6px;
+  }
+  
+  /* Date filter */
+  .date-filter {
+    padding: 12px;
+  }
+  
+  .date-tabs {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .date-tab {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  .date-picker {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .date-input {
+    flex: 1;
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  
+  .apply-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  /* Stats */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .stat-card {
+    padding: 12px;
+  }
+  
+  .stat-label {
+    font-size: 11px;
+  }
+  
+  .stat-value {
+    font-size: 22px;
+  }
+  
+  /* Nodes grid - single column */
+  .nodes-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  .node-card {
+    padding: 14px;
+  }
+  
+  .node-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+  
+  .node-id {
+    font-size: 14px;
+  }
+  
+  .realtime-data {
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .reading-value {
+    font-size: 18px;
+  }
+  
+  .reading-label {
+    font-size: 10px;
+  }
+  
+  .timestamp {
+    font-size: 9px;
+  }
+  
+  .chart-container {
+    height: 140px;
+    margin: 10px 0;
+  }
+  
+  /* Table - ensure horizontal scroll works */
+  .table-container {
+    border-radius: 8px;
+  }
+  
+  table {
+    min-width: 500px;
+    font-size: 12px;
+  }
+  
+  th, td {
+    padding: 8px 10px;
+  }
+  
+  /* Dropdowns for mobile */
+  .node-dropdown, .store-dropdown {
+    min-width: 180px;
+  }
+  
+  .node-dropdown-item, .dropdown-item {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  
+  /* Modal */
+  .modal-overlay {
+    padding: 8px;
+  }
+  
+  .modal-content {
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 16px;
+  }
+  
+  .modal-header {
+    padding: 12px 16px;
+  }
+  
+  .modal-header h3 {
+    font-size: 16px;
+  }
+  
+  .modal-close {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .modal-body {
+    padding: 16px;
+  }
+  
+  .loading, .no-data {
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Extra small devices (375px and below) */
+@media (max-width: 375px) {
+  .store-item {
+    min-width: 100px;
+  }
+  
+  .store-main {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+  
+  .date-tab {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+  
+  .stat-value {
+    font-size: 20px;
+  }
+  
+  .reading-value {
+    font-size: 16px;
+  }
+  
+  .node-card {
+    padding: 12px;
+  }
+}
+
+/* Landscape mode for mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .nodes-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .date-filter {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* ========== ADDITIONAL DROPDOWN FIXES ========== */
+/* These ensure dropdowns appear in front on all devices */
+
+/* Fix store bar overflow for dropdowns */
+.store-bar {
+  overflow-x: auto;
+  overflow-y: visible;
+  position: relative;
+}
+
+/* Ensure dropdowns have highest z-index on mobile/tablet */
+@media (max-width: 1024px) {
+  .store-dropdown,
+  .node-dropdown {
+    z-index: 9999999 !important;
+  }
+  
+  .modal-overlay {
+    z-index: 10000000 !important;
+  }
+}
+
+/* Make dropdown items easier to tap on mobile */
+@media (max-width: 768px) {
+  .dropdown-item,
+  .node-dropdown-item {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .store-dropdown {
+    position: fixed !important;
+    top: auto;
+    right: 16px;
+    left: 16px;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .store-dropdown,
+  .node-dropdown {
+    position: fixed !important;
+    z-index: 9999999;
+  }
+}
+
+/* Animation for dropdowns */
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.store-dropdown,
+.node-dropdown {
+  animation: dropdownFadeIn 0.2s ease;
+}
+
+/* iOS Safari FIX - respect mobile/tablet behavior */
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 1024px) {
+    .store-dropdown,
+    .node-dropdown {
+      position: absolute !important;
+      z-index: 9999999;
+    }
+  }
+}
+
+/* FINAL dropdown behavior */
+@media (max-width: 1024px) {
+  .store-item {
+    position: relative;
+    overflow: visible;
+  }
+
+  .store-dropdown,
+  .node-dropdown {
+    position:  absolute !important;
+    top: 100%;
+    right: 0;
+    margin-top: 6px;
+    z-index: 9999999;
+  }
+}
+
 
