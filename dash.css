@@ -1061,11 +1061,30 @@ tr:hover {
   animation: dropdownFadeIn 0.2s ease;
 }
 
-/* iOS Safari specific fix */
+/* iOS Safari FIX - respect mobile/tablet behavior */
 @supports (-webkit-touch-callout: none) {
+  @media (max-width: 1024px) {
+    .store-dropdown,
+    .node-dropdown {
+      position: absolute !important;
+      z-index: 9999999;
+    }
+  }
+}
+
+/* FINAL dropdown behavior */
+@media (max-width: 1024px) {
+  .store-item {
+    position: relative;
+    overflow: visible;
+  }
+
   .store-dropdown,
   .node-dropdown {
-    position: fixed;
+    position: absolute !important;
+    top: 100%;
+    right: 0;
+    margin-top: 6px;
     z-index: 9999999;
   }
 }
