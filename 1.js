@@ -387,7 +387,10 @@ window.toggleNodeMenu = function(nodeId) {
   }
   
   // Close all node dropdowns
-  document.querySelectorAll('.node-dropdown').forEach(el => el.remove());
+  document.querySelectorAll('.node-dropdown').forEach(el => {
+    if (el.cleanup) el.cleanup();
+    el.remove();
+  });
   
   // Also close store dropdowns to avoid conflict
   document.querySelectorAll('.store-dropdown.show').forEach(dropdown => {
@@ -414,10 +417,6 @@ window.toggleNodeMenu = function(nodeId) {
   
   // Get button position
   const rect = menuBtn.getBoundingClientRect();
-  
-  // Calculate position - FIXED for mobile
-  let top = rect.bottom + 5;
-  let left = rect.left - 230;
   
   // Apply base styles
   dropdown.style.position = 'fixed';
@@ -449,6 +448,11 @@ window.toggleNodeMenu = function(nodeId) {
   const dropdownWidth = dropdownRect.width;
   const dropdownHeight = dropdownRect.height;
   
+  // FIXED: Calculate position based on button position
+  // Default: show below and align to the right of button (for desktop)
+  let top = rect.bottom + 5;
+  let left = rect.right - dropdownWidth; // Align right edge with button's right edge
+  
   // MOBILE FIX: Adjust position for mobile viewport
   // Check right edge - if dropdown goes off screen to the right
   if (left + dropdownWidth > window.innerWidth) {
@@ -459,8 +463,7 @@ window.toggleNodeMenu = function(nodeId) {
   if (left < 16) {
     left = 16;
   }
-
-	
+  
   // Check bottom edge - if not enough space below, show above the button
   if (top + dropdownHeight > window.innerHeight) {
     top = rect.top - dropdownHeight - 5;
@@ -472,7 +475,7 @@ window.toggleNodeMenu = function(nodeId) {
   }
   
   // Apply final position
-  dropdown.style.top = `${top}px`;;
+  dropdown.style.top = `${top}px`;
   dropdown.style.left = `${left}px`;
   dropdown.style.right = 'auto';
   dropdown.style.bottom = 'auto';
@@ -481,6 +484,17 @@ window.toggleNodeMenu = function(nodeId) {
   if (window.innerWidth <= 768) {
     dropdown.style.maxWidth = `${window.innerWidth - 32}px`;
     dropdown.style.minWidth = '200px';
+    
+    // On mobile, reposition to avoid covering the button if needed
+    // Check if dropdown covers the button
+    const buttonCenter = rect.left + (rect.width / 2);
+    const dropdownCenter = left + (dropdownWidth / 2);
+    
+    // If dropdown is too far from button on mobile, adjust
+    if (Math.abs(buttonCenter - dropdownCenter) > 100) {
+      left = Math.max(16, Math.min(rect.right - dropdownWidth, window.innerWidth - dropdownWidth - 16));
+      dropdown.style.left = `${left}px`;
+    }
   }
   
   // Prevent body scrolling on mobile
@@ -499,7 +513,8 @@ window.toggleNodeMenu = function(nodeId) {
     document.body.style.overflow = originalOverflow;
     document.removeEventListener('click', handleClickOutside);
     document.removeEventListener('keydown', handleEscapeKey);
-    document.removeEventListener('scroll', handleScroll, true);
+    window.removeEventListener('scroll', handleScroll, true);
+    window.removeEventListener('resize', handleResize);
   }
   
   function handleClickOutside(e) {
@@ -520,6 +535,10 @@ window.toggleNodeMenu = function(nodeId) {
     closeDropdown();
   }
   
+  function handleResize() {
+    closeDropdown();
+  }
+  
   // Add event listeners with delay to avoid immediate closing
   setTimeout(() => {
     document.addEventListener('click', handleClickOutside);
@@ -528,13 +547,8 @@ window.toggleNodeMenu = function(nodeId) {
     if (window.innerWidth <= 768) {
       window.addEventListener('scroll', handleScroll, true);
     }
+    window.addEventListener('resize', handleResize);
   }, 10);
-  
-  // Also close on resize (viewport change)
-  function handleResize() {
-    closeDropdown();
-  }
-  window.addEventListener('resize', handleResize);
   
   // Store cleanup function on dropdown for garbage collection
   dropdown.cleanup = function() {
@@ -543,9 +557,9 @@ window.toggleNodeMenu = function(nodeId) {
       window.removeEventListener('scroll', handleScroll, true);
     }
   };
-
+  
+  console.log('✅ Dropdown positioned for node', nodeId, 'at:', { top, left, buttonPos: { x: rect.left, y: rect.top } });
 };
-
 
 function formatValue(value) {
   if (value === null || value === undefined) return '0.0';
