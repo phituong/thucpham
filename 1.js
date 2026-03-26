@@ -649,12 +649,10 @@ async function loadStoresFromDB() {
 
 // Render store buttons
 function initStoreButtons() {
-
   const container = document.getElementById('storeButtons');
   if (!container) return;
   
   let html = '';
-
   Object.entries(stores).forEach(([id, name]) => {
     const storeId = parseInt(id);
     const isActive = storeId === Number(selectedStore);
@@ -664,51 +662,116 @@ function initStoreButtons() {
         <div class="store-main" onclick="selectStore(${storeId})">
           ${name}
         </div>
-        <button class="menu-btn" onclick="toggleMenu(event, ${storeId})">
+        <button class="menu-btn" id="storemenu-${storeId}" onclick="toggleMenu(event, ${storeId})">
           ⋮
         </button>
-        <div class="store-dropdown" id="dropdown-${storeId}">
-          <div class="dropdown-item" onclick="testAction(${storeId}, 'analysis')">
-            <span class="dropdown-icon">📊</span>
-            <span>Phân tích tổng quát</span>
-          </div>
-          <div class="dropdown-item" onclick="testAction(${storeId}, 'abnormal')">
-            <span class="dropdown-icon">⚠️</span>
-            <span>Phát hiện bất thường</span>
-          </div>
-        </div>
       </div>
     `;
   });
-
   container.innerHTML = html;
 }
 
-// Toggle menu - INSTANT
+
 function toggleMenu(event, storeId) {
   event.stopPropagation();
-  
-  const button = event.currentTarget;
-  const dropdown = document.getElementById(`dropdown-${storeId}`);
-  
-  // Close all other dropdowns
-  document.querySelectorAll('.store-dropdown').forEach(d => {
-    if (d.id !== `dropdown-${storeId}`) {
-      d.classList.remove('show');
+
+  // Close all existing dropdowns
+  document.querySelectorAll('.store-dropdown-popup').forEach(el => el.remove());
+  document.querySelectorAll('.node-dropdown').forEach(el => el.remove());
+
+  const menuBtn = document.getElementById(`storemenu-${storeId}`);
+  if (!menuBtn) return;
+
+  const dropdown = document.createElement('div');
+  dropdown.className = 'store-dropdown-popup';
+  dropdown.style.cssText = `
+    position: fixed;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 220px;
+    min-width: 220px;
+    z-index: 999999;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+  `;
+
+  dropdown.innerHTML = `
+    <div class="dropdown-item" onclick="testAction(${storeId}, 'analysis'); this.closest('.store-dropdown-popup').remove();">
+      <span class="dropdown-icon">📊</span>
+      <span>Phân tích tổng quát</span>
+    </div>
+    <div class="dropdown-item" onclick="testAction(${storeId}, 'abnormal'); this.closest('.store-dropdown-popup').remove();">
+      <span class="dropdown-icon">⚠️</span>
+      <span>Phát hiện bất thường</span>
+    </div>
+  `;
+
+  document.body.appendChild(dropdown);
+
+  requestAnimationFrame(() => {
+    const ddH = dropdown.scrollHeight || 100;
+    const ddW = 220;
+
+    function positionDropdown() {
+      const btnRect = menuBtn.getBoundingClientRect();
+      const W = window.innerWidth;
+      const H = window.innerHeight;
+      const pad = 12;
+
+      let left = btnRect.right - ddW;
+      let top = btnRect.bottom + 6;
+
+      if (left < pad) left = pad;
+      if (left + ddW > W - pad) left = W - pad - ddW;
+      if (top + ddH > H - pad) top = btnRect.top - ddH - 6;
+      if (top < pad) top = pad;
+
+      if (W <= 480) {
+        dropdown.style.left = `${pad}px`;
+        dropdown.style.right = `${pad}px`;
+        dropdown.style.width = 'auto';
+        dropdown.style.minWidth = 'unset';
+      } else {
+        dropdown.style.left = `${left}px`;
+      }
+      dropdown.style.top = `${top}px`;
     }
+
+    positionDropdown();
+    dropdown.style.visibility = 'visible';
+    dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
+
+    function onScroll() {
+      requestAnimationFrame(positionDropdown);
+    }
+
+    function closeDropdown() {
+      dropdown.remove();
+      document.removeEventListener('click', onClickOutside, true);
+      document.removeEventListener('keydown', onEscape);
+      window.removeEventListener('resize', closeDropdown);
+      window.removeEventListener('scroll', onScroll, true);
+    }
+
+    function onClickOutside(e) {
+      if (!dropdown.contains(e.target) && !menuBtn.contains(e.target)) closeDropdown();
+    }
+
+    function onEscape(e) {
+      if (e.key === 'Escape') closeDropdown();
+    }
+
+    setTimeout(() => {
+      document.addEventListener('click', onClickOutside, true);
+      document.addEventListener('keydown', onEscape);
+      window.addEventListener('resize', closeDropdown);
+      window.addEventListener('scroll', onScroll, true);
+    }, 50);
   });
-  
-  // Toggle current dropdown
-  if (dropdown.classList.contains('show')) {
-    dropdown.classList.remove('show');
-  } else {
-    // Position instantly
-    const rect = button.getBoundingClientRect();
-    dropdown.style.top = (rect.bottom + 5) + 'px';
-    dropdown.style.left = rect.left + 'px';
-    // Show instantly
-    dropdown.classList.add('show');
-  }
 }
 
 // Close dropdown when clicking outside
