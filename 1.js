@@ -418,50 +418,53 @@ window.toggleNodeMenu = function(nodeId) {
   `;
 
   document.body.appendChild(dropdown);
-
+  
+  
   requestAnimationFrame(() => {
-	  const btnRect = menuBtn.getBoundingClientRect();
-	  const ddH = dropdown.scrollHeight || 120;
-	  const ddW = 260;
-	  const W = window.innerWidth;
-	  const H = window.innerHeight;
-	  const pad = 12;
-	
-	  // Align dropdown RIGHT edge to button RIGHT edge (dropdown opens leftward)
-	  let left = btnRect.right - ddW;
-	  let top = btnRect.bottom + 6;
-	
-	  // Clamp left edge — don't go off screen left
-	  if (left < pad) left = pad;
-	  // Clamp right edge — don't go off screen right  
-	  if (left + ddW > W - pad) left = W - pad - ddW;
-	
-	  // Flip above if no room below
-	  if (top + ddH > H - pad) top = btnRect.top - ddH - 6;
-	  // Clamp top edge
-	  if (top < pad) top = pad;
-	
-	  if (W <= 480) {
-		dropdown.style.left = `${pad}px`;
-		dropdown.style.right = `${pad}px`;
-		dropdown.style.width = 'auto';
-		dropdown.style.minWidth = 'unset';
-	  } else {
-		dropdown.style.left = `${left}px`;
-	  }
-	
-	  dropdown.style.top = `${top}px`;
-	  dropdown.style.visibility = 'visible';
-	  dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
-	});
+  const ddH = dropdown.scrollHeight || 120;
+  const ddW = 260;
 
-  // Close handlers
+  function positionDropdown() {
+    const btnRect = menuBtn.getBoundingClientRect();
+    const W = window.innerWidth;
+    const H = window.innerHeight;
+    const pad = 12;
+
+    let left = btnRect.right - ddW;
+    let top = btnRect.bottom + 6;
+
+    if (left < pad) left = pad;
+    if (left + ddW > W - pad) left = W - pad - ddW;
+    if (top + ddH > H - pad) top = btnRect.top - ddH - 6;
+    if (top < pad) top = pad;
+
+    if (W <= 480) {
+      dropdown.style.left = `${pad}px`;
+      dropdown.style.right = `${pad}px`;
+      dropdown.style.width = 'auto';
+      dropdown.style.minWidth = 'unset';
+    } else {
+      dropdown.style.left = `${left}px`;
+    }
+    dropdown.style.top = `${top}px`;
+  }
+
+  // Initial position
+  positionDropdown();
+  dropdown.style.visibility = 'visible';
+  dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
+
+  // Reposition on every scroll frame instead of closing
+  function onScroll() {
+    requestAnimationFrame(positionDropdown);
+  }
+
   function closeDropdown() {
     dropdown.remove();
     document.removeEventListener('click', onClickOutside, true);
     document.removeEventListener('keydown', onEscape);
     window.removeEventListener('resize', closeDropdown);
-    window.removeEventListener('scroll', closeDropdown, true);
+    window.removeEventListener('scroll', onScroll, true);
   }
 
   function onClickOutside(e) {
@@ -476,8 +479,10 @@ window.toggleNodeMenu = function(nodeId) {
     document.addEventListener('click', onClickOutside, true);
     document.addEventListener('keydown', onEscape);
     window.addEventListener('resize', closeDropdown);
-    window.addEventListener('scroll', closeDropdown, true);
+    // Use onScroll (reposition) instead of closeDropdown
+    window.addEventListener('scroll', onScroll, true);
   }, 50);
+});
 };
 
 function formatValue(value) {
