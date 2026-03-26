@@ -16,8 +16,8 @@ let isUpdating = false;
 let autoRefreshInterval = null;
 const AUTO_REFRESH_SECONDS = 30;
 
-// ✅ OFFLINE threshold: 8 minutes
-const OFFLINE_THRESHOLD_MINUTES = 10;
+// ✅ OFFLINE threshold: 20 minutes
+const OFFLINE_THRESHOLD_MINUTES = 20;
 
 
 // Hàm phân tích khoảng thời gian mất kết nối
@@ -372,180 +372,109 @@ function closeBatteryModal() {
 }
 
 // Định nghĩa hàm toggleNodeMenu
-// Định nghĩa hàm toggleNodeMenu - FIXED with unique classes
 window.toggleNodeMenu = function(nodeId) {
-  console.log('✅ Click menu node:', nodeId);
-  
-  if (window.event) {
-    window.event.stopPropagation();
-  }
-  
-  const menuBtn = document.getElementById(`menu-${nodeId}`);
-  if (!menuBtn) {
-    console.log('❌ Không tìm thấy nút menu');
-    return;
-  }
-  
-  // Close all node dropdowns
+  if (window.event) window.event.stopPropagation();
+
+  // Close all existing dropdowns
   document.querySelectorAll('.node-dropdown').forEach(el => el.remove());
-  
-  // Also close store dropdowns to avoid conflict
-  document.querySelectorAll('.store-dropdown.show').forEach(dropdown => {
-    dropdown.classList.remove('show');
-  });
-  
+  document.querySelectorAll('.store-dropdown.show').forEach(d => d.classList.remove('show'));
+
+  const menuBtn = document.getElementById(`menu-${nodeId}`);
+  if (!menuBtn) return;
+
   const readings = window[`readings_${nodeId}`];
-  if (!readings) {
-    console.log('❌ Không có readings cho node', nodeId);
-    alert('Node này chưa có dữ liệu');
-    return;
-  }
-  
+  if (!readings) { alert('Node này chưa có dữ liệu'); return; }
+
   let disconnectCount = 0;
   try {
-    const disconnections = analyzeDisconnections(readings, OFFLINE_THRESHOLD_MINUTES);
-    disconnectCount = disconnections.length;
-  } catch (err) {
-    console.log('Lỗi đếm Mất kết nối:', err);
-  }
-  
+    disconnectCount = analyzeDisconnections(readings, OFFLINE_THRESHOLD_MINUTES).length;
+  } catch (err) {}
+
   const dropdown = document.createElement('div');
   dropdown.className = 'node-dropdown';
-  
-  // Get button position
-  const rect = menuBtn.getBoundingClientRect();
-  
-  // Calculate position - FIXED for mobile
-  let top = rect.bottom + 5;
-  let left = rect.left - 230;
-  
-  // Apply base styles
-  dropdown.style.position = 'fixed';
-  dropdown.style.background = 'white';
-  dropdown.style.borderRadius = '12px';
-  dropdown.style.boxShadow = '0 10px 25px rgba(0,0,0,0.2)';
-  dropdown.style.minWidth = '250px';
-  dropdown.style.zIndex = '999999';
-  dropdown.style.border = '1px solid #e2e8f0';
-  dropdown.style.overflow = 'hidden';
-  dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
-  
   dropdown.innerHTML = `
     <div class="node-dropdown-item" onclick="window.showConnectionAnalysis(${nodeId}); this.closest('.node-dropdown').remove(); event.stopPropagation();">
-      <span style="font-size: 20px; width: 32px; text-align: center;">📡</span>
-      <span style="flex: 1;">Thống kê kết nối</span>
-      <span style="background: #ef4444; color: white; padding: 2px 8px; border-radius: 20px; font-size: 12px; font-weight: bold;">${disconnectCount}</span>
+      <span style="font-size:16px;width:28px;text-align:center">📡</span>
+      <span style="flex:1">Thống kê kết nối</span>
+      <span style="background:#ef4444;color:white;padding:2px 8px;border-radius:20px;font-size:12px;font-weight:bold">${disconnectCount}</span>
     </div>
     <div class="node-dropdown-item" onclick="window.showBatteryAnalysis(${nodeId}); this.closest('.node-dropdown').remove(); event.stopPropagation();">
-      <span style="font-size: 20px; width: 32px; text-align: center;">🔋</span>
+      <span style="font-size:16px;width:28px;text-align:center">🔋</span>
       <span>Thống kê pin</span>
     </div>
   `;
-  
+
+  // Always use fixed positioning — no body overflow changes
+  dropdown.style.cssText = `
+    position: fixed;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    min-width: 250px;
+    z-index: 999999;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    animation: dropdownFadeIn 0.2s ease;
+    top: -9999px;
+    left: -9999px;
+  `;
+
   document.body.appendChild(dropdown);
-  
-  // Get dropdown dimensions after adding to DOM
-  const dropdownRect = dropdown.getBoundingClientRect();
-  const dropdownWidth = dropdownRect.width;
-  const dropdownHeight = dropdownRect.height;
-  
-  // MOBILE FIX: Adjust position for mobile viewport
-  // Check right edge - if dropdown goes off screen to the right
-  if (left + dropdownWidth > window.innerWidth) {
-    left = window.innerWidth - dropdownWidth - 16;
-  }
-  
-  // Check left edge - if dropdown goes off screen to the left
-  if (left < 16) {
-    left = 16;
-  }
 
-	
-  // Check bottom edge - if not enough space below, show above the button
-  if (top + dropdownHeight > window.innerHeight) {
-    top = rect.top - dropdownHeight - 5;
+  // Now measure and position
+  const btnRect = menuBtn.getBoundingClientRect();
+  const ddRect = dropdown.getBoundingClientRect();
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+  const pad = 12;
+
+  let top = btnRect.bottom + 6;
+  let left = btnRect.right - ddRect.width; // right-align with button
+
+  // Clamp horizontal
+  if (left < pad) left = pad;
+  if (left + ddRect.width > W - pad) left = W - pad - ddRect.width;
+
+  // Flip above if no room below
+  if (top + ddRect.height > H - pad) top = btnRect.top - ddRect.height - 6;
+  if (top < pad) top = pad;
+
+  // Mobile: full-width style
+  if (W <= 480) {
+    dropdown.style.left = `${pad}px`;
+    dropdown.style.right = `${pad}px`;
+    dropdown.style.width = 'auto';
+    dropdown.style.minWidth = 'unset';
+  } else {
+    dropdown.style.left = `${left}px`;
   }
-  
-  // Check top edge - if not enough space above either
-  if (top < 16) {
-    top = 16;
-  }
-  
-  // Apply final position
-  dropdown.style.top = `${top}px`;;
-  dropdown.style.left = `${left}px`;
-  dropdown.style.right = 'auto';
-  dropdown.style.bottom = 'auto';
-  
-  // For mobile, ensure dropdown doesn't exceed viewport width
-  if (window.innerWidth <= 768) {
-    dropdown.style.maxWidth = `${window.innerWidth - 32}px`;
-    dropdown.style.minWidth = '200px';
-  }
-  
-  // Prevent body scrolling on mobile
-  const originalOverflow = document.body.style.overflow;
-  document.body.style.overflow = 'hidden';
-  
-  // Close dropdown handlers
-  let isClosing = false;
-  
+  dropdown.style.top = `${top}px`;
+
+  // Close handlers
   function closeDropdown() {
-    if (isClosing) return;
-    isClosing = true;
-    if (dropdown && dropdown.remove) {
-      dropdown.remove();
-    }
-    document.body.style.overflow = originalOverflow;
-    document.removeEventListener('click', handleClickOutside);
-    document.removeEventListener('keydown', handleEscapeKey);
-    document.removeEventListener('scroll', handleScroll, true);
+    dropdown.remove();
+    document.removeEventListener('click', onClickOutside, true);
+    document.removeEventListener('keydown', onEscape);
+    window.removeEventListener('resize', closeDropdown);
+    window.removeEventListener('scroll', closeDropdown, true);
   }
-  
-  function handleClickOutside(e) {
-    // Don't close if clicking on the dropdown or the menu button
-    if (!dropdown.contains(e.target) && !menuBtn.contains(e.target)) {
-      closeDropdown();
-    }
+
+  function onClickOutside(e) {
+    if (!dropdown.contains(e.target) && !menuBtn.contains(e.target)) closeDropdown();
   }
-  
-  function handleEscapeKey(e) {
-    if (e.key === 'Escape') {
-      closeDropdown();
-    }
+
+  function onEscape(e) {
+    if (e.key === 'Escape') closeDropdown();
   }
-  
-  function handleScroll(e) {
-    // Close dropdown on scroll (common on mobile)
-    closeDropdown();
-  }
-  
-  // Add event listeners with delay to avoid immediate closing
+
+  // Small delay so this click doesn't immediately close it
   setTimeout(() => {
-    document.addEventListener('click', handleClickOutside);
-    document.addEventListener('keydown', handleEscapeKey);
-    // Close on scroll for mobile
-    if (window.innerWidth <= 768) {
-      window.addEventListener('scroll', handleScroll, true);
-    }
-  }, 10);
-  
-  // Also close on resize (viewport change)
-  function handleResize() {
-    closeDropdown();
-  }
-  window.addEventListener('resize', handleResize);
-  
-  // Store cleanup function on dropdown for garbage collection
-  dropdown.cleanup = function() {
-    window.removeEventListener('resize', handleResize);
-    if (window.innerWidth <= 768) {
-      window.removeEventListener('scroll', handleScroll, true);
-    }
-  };
-
+    document.addEventListener('click', onClickOutside, true);
+    document.addEventListener('keydown', onEscape);
+    window.addEventListener('resize', closeDropdown);
+    window.addEventListener('scroll', closeDropdown, true);
+  }, 50);
 };
-
 
 function formatValue(value) {
   if (value === null || value === undefined) return '0.0';
