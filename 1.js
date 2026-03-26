@@ -371,11 +371,9 @@ function closeBatteryModal() {
   document.getElementById('battery-modal').style.display = 'none';
 }
 
-// Định nghĩa hàm toggleNodeMenu
 window.toggleNodeMenu = function(nodeId) {
   if (window.event) window.event.stopPropagation();
 
-  // Close all existing dropdowns
   document.querySelectorAll('.node-dropdown').forEach(el => el.remove());
   document.querySelectorAll('.store-dropdown.show').forEach(d => d.classList.remove('show'));
 
@@ -392,6 +390,21 @@ window.toggleNodeMenu = function(nodeId) {
 
   const dropdown = document.createElement('div');
   dropdown.className = 'node-dropdown';
+  dropdown.style.cssText = `
+    position: fixed;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 260px;
+    min-width: 260px;
+    z-index: 999999;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+  `;
+
   dropdown.innerHTML = `
     <div class="node-dropdown-item" onclick="window.showConnectionAnalysis(${nodeId}); this.closest('.node-dropdown').remove(); event.stopPropagation();">
       <span style="font-size:16px;width:28px;text-align:center">📡</span>
@@ -404,51 +417,43 @@ window.toggleNodeMenu = function(nodeId) {
     </div>
   `;
 
-  // Always use fixed positioning — no body overflow changes
-  dropdown.style.cssText = `
-    position: fixed;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    min-width: 250px;
-    z-index: 999999;
-    border: 1px solid #e2e8f0;
-    overflow: hidden;
-    animation: dropdownFadeIn 0.2s ease;
-    top: -9999px;
-    left: -9999px;
-  `;
-
   document.body.appendChild(dropdown);
 
-  // Now measure and position
-  const btnRect = menuBtn.getBoundingClientRect();
-  const ddRect = dropdown.getBoundingClientRect();
-  const W = window.innerWidth;
-  const H = window.innerHeight;
-  const pad = 12;
-
-  let top = btnRect.bottom + 6;
-  let left = btnRect.right - ddRect.width; // right-align with button
-
-  // Clamp horizontal
-  if (left < pad) left = pad;
-  if (left + ddRect.width > W - pad) left = W - pad - ddRect.width;
-
-  // Flip above if no room below
-  if (top + ddRect.height > H - pad) top = btnRect.top - ddRect.height - 6;
-  if (top < pad) top = pad;
-
-  // Mobile: full-width style
-  if (W <= 480) {
-    dropdown.style.left = `${pad}px`;
-    dropdown.style.right = `${pad}px`;
-    dropdown.style.width = 'auto';
-    dropdown.style.minWidth = 'unset';
-  } else {
-    dropdown.style.left = `${left}px`;
-  }
-  dropdown.style.top = `${top}px`;
+  requestAnimationFrame(() => {
+	  const btnRect = menuBtn.getBoundingClientRect();
+	  const ddH = dropdown.scrollHeight || 120;
+	  const ddW = 260;
+	  const W = window.innerWidth;
+	  const H = window.innerHeight;
+	  const pad = 12;
+	
+	  // Align dropdown RIGHT edge to button RIGHT edge (dropdown opens leftward)
+	  let left = btnRect.right - ddW;
+	  let top = btnRect.bottom + 6;
+	
+	  // Clamp left edge — don't go off screen left
+	  if (left < pad) left = pad;
+	  // Clamp right edge — don't go off screen right  
+	  if (left + ddW > W - pad) left = W - pad - ddW;
+	
+	  // Flip above if no room below
+	  if (top + ddH > H - pad) top = btnRect.top - ddH - 6;
+	  // Clamp top edge
+	  if (top < pad) top = pad;
+	
+	  if (W <= 480) {
+		dropdown.style.left = `${pad}px`;
+		dropdown.style.right = `${pad}px`;
+		dropdown.style.width = 'auto';
+		dropdown.style.minWidth = 'unset';
+	  } else {
+		dropdown.style.left = `${left}px`;
+	  }
+	
+	  dropdown.style.top = `${top}px`;
+	  dropdown.style.visibility = 'visible';
+	  dropdown.style.animation = 'dropdownFadeIn 0.2s ease';
+	});
 
   // Close handlers
   function closeDropdown() {
@@ -467,7 +472,6 @@ window.toggleNodeMenu = function(nodeId) {
     if (e.key === 'Escape') closeDropdown();
   }
 
-  // Small delay so this click doesn't immediately close it
   setTimeout(() => {
     document.addEventListener('click', onClickOutside, true);
     document.addEventListener('keydown', onEscape);
